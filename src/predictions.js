@@ -20,6 +20,15 @@ const state = { predictions: null, round: null, colorByCode: {} };
 
 const el = (id) => document.getElementById(id);
 
+// "box lap 23" for a single lap, "box laps 21-26" for a window, "box laps 18-22, 40-44" for a
+// two-stopper. Falls back to the exact pit laps for older data without a window.
+function pitWindowText(p) {
+  const str = p.pitWindowStr || (p.pits && p.pits.length ? p.pits.join(', ') : '');
+  if (!str) return '';
+  const multi = /[-,]/.test(str);
+  return `box lap${multi ? 's' : ''} ${str}`;
+}
+
 async function boot() {
   const [predictions, grid] = await Promise.all([
     loadJSON('./data/predictions.json'),
@@ -100,8 +109,19 @@ function renderDriverTable(r) {
   el('accuracyNote').textContent = completed
     ? `Backtest accuracy this round: stop count ${stopAcc.correct}/${stopAcc.total} (${stopAcc.total ? Math.round(100 * stopAcc.correct / stopAcc.total) : 0}%), compound choice ${compAcc.correct}/${compAcc.total} (${compAcc.total ? Math.round(100 * compAcc.correct / compAcc.total) : 0}%). Drivers who retired or didn't start are left out of both counts since a partial race isn't a fair comparison, though they're still listed below.`
     : "Race hasn't run yet, so this is a prediction only. There's nothing to check it against.";
-  el('tableHead').innerHTML = '<th>Grid (quali)</th><th>Driver</th><th>Predicted call</th><th>Exp. finish</th><th>Win% (95% range)</th>'
-    + (completed ? '<th>They ran</th><th>Stops</th><th>Compounds</th>' : '<th>Downside (P90)</th>')
+  // Plain-English legend for the metrics, so no column needs decoding.
+  el('metricsLegend').innerHTML = completed
+    ? 'How to read it: <b>Predicted call</b> = our recommended stops, tyres and pit-lap window · <b>Exp. finish</b> = average finish across simulated runs · <b>Win%</b> = share of runs won · <b>Stops&nbsp;✓ / Compounds&nbsp;✓</b> = did our call match what they actually ran.'
+    : 'How to read it: <b>Predicted call</b> = our recommended stops, tyres and pit-lap window · <b>Exp. finish</b> = average finish across simulated runs · <b>Win%</b> = share of runs won (95% range) · <b>Worst case (9-in-10)</b> = the driver finishes this position or better in 9 of every 10 simulated runs.';
+  el('tableHead').innerHTML =
+    '<th title="Starting position, from Saturday qualifying">Grid (quali)</th>'
+    + '<th>Driver</th>'
+    + '<th title="Our recommended strategy: number of stops, tyre sequence (real Pirelli C-compounds), and the lap window to pit in">Predicted call</th>'
+    + '<th title="Average finishing position across all simulated runs">Exp. finish</th>'
+    + '<th title="Share of simulated runs this driver wins, with a 95% confidence range">Win% (95% range)</th>'
+    + (completed
+      ? '<th title="The strategy the driver actually ran, and where they finished">They ran</th><th title="Did our predicted stop-count match theirs?">Stops&nbsp;✓</th><th title="Did our predicted tyre compounds match theirs?">Compounds&nbsp;✓</th>'
+      : '<th title="Realistic worst case: the driver beats or matches this position in 9 of 10 simulated runs; only 1 in 10 is worse">Worst case (9-in-10)</th>')
     + '<th></th>';
   const body = el('tableBody');
   body.innerHTML = '';
@@ -118,14 +138,16 @@ function renderDriverTable(r) {
       + `<td><span class="driver-cell"><span class="team-bar" style="background:${color}"></span>`
       + `<span><span class="driver-code">${d.code}</span> <span class="driver-name">${d.name}</span>`
       + `<br><span class="win-range">${d.team}</span></span></span></td>`
-      + `<td>${p.stops}-stop ${p.plan}</td><td>P${p.expFinish?.toFixed(1) ?? '?'}</td><td>${winPct}% ${winRange}</td>`;
+      + `<td>${p.stops}-stop ${p.plan}`
+      + (pitWindowText(p) ? `<br><span class="win-range">${pitWindowText(p)}</span>` : '')
+      + `</td><td>P${p.expFinish?.toFixed(1) ?? '?'}</td><td>${winPct}% ${winRange}</td>`;
     if (completed && d.actual) {
       const dnfNote = d.actual.raced === false ? ` (${d.actual.status})` : '';
       const stopMark = d.stopCountCorrect === null ? '&mdash;' : d.stopCountCorrect ? '<span class="match">yes</span>' : '<span class="mismatch">no</span>';
       const compMark = d.compoundCorrect === null ? '&mdash;' : d.compoundCorrect ? '<span class="match">yes</span>' : '<span class="mismatch">no</span>';
       cells += `<td>${d.actual.stops}-stop ${d.actual.plan} (P${d.actual.finish}${dnfNote})</td><td>${stopMark}</td><td>${compMark}</td>`;
     } else if (!completed) {
-      cells += `<td>P${p.downsideP90 ?? '?'}</td>`;
+      cells += `<td>P${p.downsideP90 ?? '?'} or better</td>`;
     } else {
       cells += '<td>&mdash;</td><td>&mdash;</td><td>&mdash;</td>';
     }

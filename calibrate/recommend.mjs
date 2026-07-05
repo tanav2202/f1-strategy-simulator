@@ -31,11 +31,11 @@ if (ctx.compoundAlloc) {
 md += `- **Model:** each driver's strategy optimised for *their own* finish, vs a field with `;
 md += ctx.priorRounds ? `**real per-car pace** calibrated on 2026 rounds 1–${round - 1} (leakage-safe)${ctx.usedSprintPace ? ` + this weekend's own Sprint session` : ''}.` : `flat pace (no prior data).`;
 md += `\n- **Validation:** backtested on completed 2026 races, rank-corr ρ≈0.64. A **recommendation, not a winner prediction**.\n\n`;
-md += `| Start | Driver | Team | My call | Pit lap(s) | Exp. finish | Win% (95% range) | Top-5% |\n`;
+md += `| Start | Driver | Team | My call | Pit window | Exp. finish | Win% (95% range) | Top-5% |\n`;
 md += `|------:|--------|------|---------|-----------|:----------:|:----:|:-----:|\n`;
 for (const r of rows) {
   const winStr = `${(r.pWin * 100).toFixed(0)}% (${(r.pWinLo * 100).toFixed(0)}-${(r.pWinHi * 100).toFixed(0)}%)`;
-  md += `| P${r.start} | **${r.code}** ${r.name.split(' ').slice(-1)[0]} | ${r.team} | ${r.stops}-stop ${r.plan} | ${r.pits.join(', ') || 'none'} | P${r.expFinish.toFixed(1)} | ${winStr} | ${(r.top5 * 100).toFixed(0)}% |\n`;
+  md += `| P${r.start} | **${r.code}** ${r.name.split(' ').slice(-1)[0]} | ${r.team} | ${r.stops}-stop ${r.plan} | ${r.pitWindowStr || 'none'} | P${r.expFinish.toFixed(1)} | ${winStr} | ${(r.top5 * 100).toFixed(0)}% |\n`;
 }
 const oneStop = rows.filter((r) => r.stops === 1).length;
 const twoStop = rows.filter((r) => r.stops === 2).length;

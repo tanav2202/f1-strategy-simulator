@@ -65,6 +65,9 @@
   .driver-code { font-weight: 800; }
   .driver-name { color: var(--ink); }
   .win-range { color: var(--muted); font-size: 12.5px; }
+  .metrics-legend { background: #f7f7f9; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; font-size: 13px; line-height: 1.5; }
+  .metrics-legend b { color: var(--ink); }
+  th[title] { cursor: help; text-decoration: underline dotted var(--line); text-underline-offset: 3px; }
   .sim-btn {
     font-size: 13px; padding: 6px 13px; border-radius: 6px; border: 1px solid var(--accent);
     background: var(--panel); color: var(--accent); cursor: pointer; font-weight: 600;
@@ -104,7 +107,8 @@
     </div>
     <div class="panel">
       <h2>Per-driver strategy calls</h2>
-      <div class="sub" id="accuracyNote" style="margin-bottom:8px;"></div>
+      <div class="sub" id="accuracyNote" style="margin-bottom:6px;"></div>
+      <div class="sub metrics-legend" id="metricsLegend" style="margin-bottom:10px;"></div>
       <div class="table-wrap">
         <table id="driverTable">
           <thead><tr id="tableHead"></tr></thead>

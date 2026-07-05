@@ -105,6 +105,66 @@ function wilsonInterval(wins, n, z = 1.96) {
   return { lo: Math.max(0, center - margin), hi: Math.min(1, center + margin) };
 }
 
+// Per-driver exact pit-lap refinement. The DP hands back the track's own-pace optimal stop laps,
+// which are IDENTICAL for every driver (per-car pace is a flat per-lap offset that can't move the
+// optimum, only the whole race clock). This searches a window around each DP stop and keeps the laps
+// that finish best against THIS driver's grid slot and the field, so the box lap now responds to
+// track position and differs driver-to-driver. Also returns, per stop, the window of laps within
+// `TOL` positions of the best (an honest "any lap in here is about as good" range for display).
+function refinePitLaps({ stops, compounds }, mcOpts, screenN) {
+  const constants = mcOpts.constants;
+  const total = constants.total_laps;
+  const legal = constants.weather[mcOpts.weather].allowed;
+  const maxStint = Object.fromEntries(legal.map((l) => [l, constants.compounds[l]?.max_stint_laps ?? Infinity]));
+  const WIN = 5, MIN_GAP = 5, TOL = 0.4;
+
+  const meanF = (fc) => { let a = 0, t = 0; fc.forEach((c, p) => { a += c * (p + 1); t += c; }); return t ? a / t : 99; };
+  const feasible = (s) => {
+    for (let i = 0; i < s.length; i++) {
+      if (s[i] < 2 || s[i] > total - 1) return false;
+      if (i > 0 && s[i] - s[i - 1] < MIN_GAP) return false;
+    }
+    const b = [0, ...s, total];
+    for (let i = 0; i < compounds.length; i++) {
+      const len = b[i + 1] - b[i];
+      if (len < 1 || len > (maxStint[compounds[i]] ?? Infinity)) return false;
+    }
+    return true;
+  };
+  const evalMean = (s) => meanF(evaluateStrategy({ ...mcOpts, chosenStrategy: { stops: s, compounds }, N: screenN }).finishCounts);
+
+  const cur = stops.slice();
+  const sweeps = cur.map(() => ({}));
+  // Coordinate descent: sweep each stop over ±WIN holding the others fixed (one pass for a 1-stop,
+  // two for multi-stop so an early move can feed back into a later one). Cheap and enough here since
+  // race time is smooth and convex in each stop lap.
+  const passes = cur.length === 1 ? 1 : 2;
+  for (let pass = 0; pass < passes; pass++) {
+    for (let i = 0; i < cur.length; i++) {
+      let bestLap = cur[i], bestF = Infinity;
+      for (let lap = cur[i] - WIN; lap <= cur[i] + WIN; lap++) {
+        const cand = cur.slice(); cand[i] = lap;
+        if (!feasible(cand)) continue;
+        const f = evalMean(cand);
+        sweeps[i][lap] = f;
+        if (f < bestF - 1e-9) { bestF = f; bestLap = lap; }
+      }
+      cur[i] = bestLap;
+    }
+  }
+  const windows = cur.map((lap, i) => {
+    const memo = sweeps[i];
+    const fs = Object.values(memo);
+    if (!fs.length) return [lap, lap];
+    const best = Math.min(...fs);
+    const good = Object.keys(memo).map(Number).filter((l) => memo[l] <= best + TOL).sort((a, b) => a - b);
+    return good.length ? [good[0], good[good.length - 1]] : [lap, lap];
+  });
+  return { stops: cur, windows };
+}
+
+const fmtWindow = (w) => (w[0] === w[1] ? `${w[0]}` : `${w[0]}-${w[1]}`);
+
 // Optimise ONE driver's strategy, spec 14.2/14.3. Per explicit product direction this NEVER
 // reasons about the grid jointly: DP finds the exact best stop-laps per stop-count (1..4) against
 // ONLY this driver's own pace model, tyre-legal and set-allocation-feasible; each stop-count
@@ -129,6 +189,13 @@ export function recommendDriver(ctx, carId, weather, mc = {}) {
   // Rank by expected finish (spec 14.3's stated ranking rule); ties broken by win probability.
   candidates.sort((a, b) => (a.expFinish - b.expFinish) || (b.pWin - a.pWin));
   const chosen = candidates[0];
+
+  // Refine the chosen stop-count's exact pit laps for THIS driver (field/grid-aware), so the box
+  // lap differs by track position instead of every driver inheriting the identical DP optimum.
+  const refined = refinePitLaps(chosen.strategy, mcOpts, mcOpts.screenN ?? 30);
+  chosen.strategy = { stops: refined.stops, compounds: chosen.strategy.compounds };
+  const pitWindow = refined.windows;
+  const pitWindowStr = pitWindow.map(fmtWindow).join(', ');
 
   // Re-evaluate the chosen candidate at higher N for a stable headline + distribution.
   const finalN = mcOpts.finalN ?? 200;
@@ -157,6 +224,7 @@ export function recommendDriver(ctx, carId, weather, mc = {}) {
     compoundsC,
     plan,
     pits: chosen.strategy.stops,
+    pitWindow, pitWindowStr,
     expFinish: meanFinish(finalEv.finishCounts),
     pWin: finalEv.p_win,
     pWinLo: pWinCI.lo, pWinHi: pWinCI.hi, // 95% Wilson interval, see wilsonInterval() above

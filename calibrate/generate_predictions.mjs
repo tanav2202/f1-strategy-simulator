@@ -69,7 +69,7 @@ for (const race of races) {
     drivers.push({
       code: r.code, name: r.name, team: r.team, start: r.start,
       predicted: {
-        stops: r.stops, plan: r.plan, pits: r.pits, compounds: r.compounds, compoundsC: r.compoundsC,
+        stops: r.stops, plan: r.plan, pits: r.pits, pitWindow: r.pitWindow, pitWindowStr: r.pitWindowStr, compounds: r.compounds, compoundsC: r.compoundsC,
         expFinish: r.expFinish, pWin: r.pWin, pWinLo: r.pWinLo, pWinHi: r.pWinHi, top5: r.top5, downsideP90: r.downsideP90,
         byStopCount: r.byStopCount,
       },
