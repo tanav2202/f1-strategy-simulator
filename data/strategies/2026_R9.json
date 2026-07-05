@@ -1,0 +1,786 @@
+{
+  "year": 2026,
+  "round": 9,
+  "event": "British Grand Prix",
+  "date": "2026-07-05",
+  "total_laps": 52,
+  "generated_utc": "2026-07-05T23:25:35.107071+00:00",
+  "drivers": [
+    {
+      "code": "LEC",
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "grid": 2,
+      "finish": 1,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        25,
+        48
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 25
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 26,
+          "lap_end": 48
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 49,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "RUS",
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "grid": 4,
+      "finish": 2,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        23,
+        34
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 23
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 24,
+          "lap_end": 34
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 35,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "HAM",
+      "driver": "Lewis Hamilton",
+      "team": "Ferrari",
+      "grid": 3,
+      "finish": 3,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        23,
+        48
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 23
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 24,
+          "lap_end": 48
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 49,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "NOR",
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "grid": 6,
+      "finish": 4,
+      "status": "Finished",
+      "stops": 3,
+      "pit_laps": [
+        28,
+        38,
+        48
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 28
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 29,
+          "lap_end": 38
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 39,
+          "lap_end": 48
+        },
+        {
+          "stint": 4,
+          "compound": "soft",
+          "lap_start": 49,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "HAD",
+      "driver": "Isack Hadjar",
+      "team": "Red Bull Racing",
+      "grid": 5,
+      "finish": 5,
+      "status": "Finished",
+      "stops": 3,
+      "pit_laps": [
+        19,
+        38,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 19
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 20,
+          "lap_end": 38
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 39,
+          "lap_end": 47
+        },
+        {
+          "stint": 4,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "LAW",
+      "driver": "Liam Lawson",
+      "team": "Racing Bulls",
+      "grid": 10,
+      "finish": 6,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        28,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 28
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 29,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "LIN",
+      "driver": "Arvid Lindblad",
+      "team": "Racing Bulls",
+      "grid": 9,
+      "finish": 7,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        27,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 27
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 28,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "BOR",
+      "driver": "Gabriel Bortoleto",
+      "team": "Audi",
+      "grid": 11,
+      "finish": 8,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        26,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 26
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 27,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "COL",
+      "driver": "Franco Colapinto",
+      "team": "Alpine",
+      "grid": 19,
+      "finish": 9,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        22,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 22
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 23,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "GAS",
+      "driver": "Pierre Gasly",
+      "team": "Alpine",
+      "grid": 15,
+      "finish": 10,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        23,
+        48
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 23
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 24,
+          "lap_end": 48
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 49,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "PIA",
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "grid": 8,
+      "finish": 11,
+      "status": "Finished",
+      "stops": 3,
+      "pit_laps": [
+        2,
+        36,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 2
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 3,
+          "lap_end": 36
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 37,
+          "lap_end": 47
+        },
+        {
+          "stint": 4,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "BEA",
+      "driver": "Oliver Bearman",
+      "team": "Haas F1 Team",
+      "grid": 13,
+      "finish": 12,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        29,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 29
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 30,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "OCO",
+      "driver": "Esteban Ocon",
+      "team": "Haas F1 Team",
+      "grid": 17,
+      "finish": 13,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        21,
+        47
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 21
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 22,
+          "lap_end": 47
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 48,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "PER",
+      "driver": "Sergio Perez",
+      "team": "Cadillac",
+      "grid": 20,
+      "finish": 14,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        21,
+        46
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 21
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 22,
+          "lap_end": 46
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 47,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "ANT",
+      "driver": "Kimi Antonelli",
+      "team": "Mercedes",
+      "grid": 1,
+      "finish": 15,
+      "status": "Finished",
+      "stops": 3,
+      "pit_laps": [
+        35,
+        41,
+        43
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 35
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 36,
+          "lap_end": 41
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 42,
+          "lap_end": 43
+        },
+        {
+          "stint": 4,
+          "compound": "medium",
+          "lap_start": 44,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "BOT",
+      "driver": "Valtteri Bottas",
+      "team": "Cadillac",
+      "grid": 18,
+      "finish": 16,
+      "status": "Finished",
+      "stops": 2,
+      "pit_laps": [
+        29,
+        46
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 29
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 30,
+          "lap_end": 46
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 47,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "SAI",
+      "driver": "Carlos Sainz",
+      "team": "Williams",
+      "grid": 14,
+      "finish": 17,
+      "status": "Lapped",
+      "stops": 2,
+      "pit_laps": [
+        20,
+        48
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 20
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 21,
+          "lap_end": 48
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 49,
+          "lap_end": 52
+        }
+      ]
+    },
+    {
+      "code": "ALO",
+      "driver": "Fernando Alonso",
+      "team": "Aston Martin",
+      "grid": 21,
+      "finish": 18,
+      "status": "Lapped",
+      "stops": 2,
+      "pit_laps": [
+        20,
+        46
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 20
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 21,
+          "lap_end": 46
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 47,
+          "lap_end": 51
+        }
+      ]
+    },
+    {
+      "code": "STR",
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "grid": 22,
+      "finish": 19,
+      "status": "Lapped",
+      "stops": 2,
+      "pit_laps": [
+        18,
+        46
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 18
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 19,
+          "lap_end": 46
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 47,
+          "lap_end": 51
+        }
+      ]
+    },
+    {
+      "code": "VER",
+      "driver": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "grid": 7,
+      "finish": 20,
+      "status": "Retired",
+      "stops": 2,
+      "pit_laps": [
+        17,
+        38
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 17
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 18,
+          "lap_end": 38
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 39,
+          "lap_end": 47
+        }
+      ]
+    },
+    {
+      "code": "ALB",
+      "driver": "Alexander Albon",
+      "team": "Williams",
+      "grid": 16,
+      "finish": 21,
+      "status": "Retired",
+      "stops": 6,
+      "pit_laps": [
+        1,
+        14,
+        23,
+        35,
+        40,
+        43
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 1
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 2,
+          "lap_end": 14
+        },
+        {
+          "stint": 3,
+          "compound": "medium",
+          "lap_start": 15,
+          "lap_end": 23
+        },
+        {
+          "stint": 4,
+          "compound": "soft",
+          "lap_start": 24,
+          "lap_end": 35
+        },
+        {
+          "stint": 5,
+          "compound": "soft",
+          "lap_start": 36,
+          "lap_end": 40
+        },
+        {
+          "stint": 6,
+          "compound": "soft",
+          "lap_start": 41,
+          "lap_end": 43
+        }
+      ]
+    },
+    {
+      "code": "HUL",
+      "driver": "Nico Hulkenberg",
+      "team": "Audi",
+      "grid": 12,
+      "finish": 22,
+      "status": "Retired",
+      "stops": 2,
+      "pit_laps": [
+        17,
+        34
+      ],
+      "stints": [
+        {
+          "stint": 1,
+          "compound": "medium",
+          "lap_start": 1,
+          "lap_end": 17
+        },
+        {
+          "stint": 2,
+          "compound": "hard",
+          "lap_start": 18,
+          "lap_end": 34
+        },
+        {
+          "stint": 3,
+          "compound": "soft",
+          "lap_start": 35,
+          "lap_end": 37
+        }
+      ]
+    }
+  ]
+}

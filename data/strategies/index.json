@@ -56,6 +56,13 @@
       "date": "2026-06-28",
       "total_laps": 71,
       "file": "2026_R8.json"
+    },
+    {
+      "round": 9,
+      "event": "British Grand Prix",
+      "date": "2026-07-05",
+      "total_laps": 52,
+      "file": "2026_R9.json"
     }
   ]
 }

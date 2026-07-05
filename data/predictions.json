@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-05T11:52:01.808Z",
+  "generated_utc": "2026-07-05T23:48:39.878Z",
   "rounds": [
     {
       "round": 1,
@@ -12744,7 +12744,7 @@
       "date": "2026-07-05",
       "totalLaps": 52,
       "weather": "DRY",
-      "status": "upcoming",
+      "status": "completed",
       "trackFile": "tracks/2026_R9.json",
       "priorRounds": 8,
       "usedSprintPace": true,
@@ -12754,72 +12754,15 @@
         "soft": "C3",
         "severity": 1.25
       },
-      "stopCountAgreement": null,
-      "compoundAgreement": null,
+      "stopCountAgreement": {
+        "correct": 0,
+        "total": 19
+      },
+      "compoundAgreement": {
+        "correct": 2,
+        "total": 19
+      },
       "drivers": [
-        {
-          "code": "ANT",
-          "name": "Kimi Antonelli",
-          "team": "Mercedes",
-          "start": 1,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              20
-            ],
-            "pitWindow": [
-              [
-                18,
-                28
-              ]
-            ],
-            "pitWindowStr": "18-28",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 1.095,
-            "pWin": 0.92,
-            "pWinLo": 0.8740095102048769,
-            "pWinHi": 0.9501598448237337,
-            "top5": 1,
-            "downsideP90": 1,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 1.1,
-                "pWin": 0.9333333333333333
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 1.9333333333333333,
-                "pWin": 0.4
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 4.4,
-                "pWin": 0.3
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 8.933333333333334,
-                "pWin": 0.03333333333333333
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
         {
           "code": "LEC",
           "name": "Charles Leclerc",
@@ -12829,259 +12772,7 @@
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              19
-            ],
-            "pitWindow": [
-              [
-                18,
-                24
-              ]
-            ],
-            "pitWindowStr": "18-24",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 2.83,
-            "pWin": 0.12,
-            "pWinLo": 0.08197935023887545,
-            "pWinHi": 0.17234361425904846,
-            "top5": 0.99,
-            "downsideP90": 5,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 3.2666666666666666,
-                "pWin": 0.1
-              },
-              {
-                "stopCount": 2,
-                "plan": "medium→soft→soft",
-                "expFinish": 6.766666666666667,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 7.2,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 11.4,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "HAM",
-          "name": "Lewis Hamilton",
-          "team": "Ferrari",
-          "start": 3,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              19
-            ],
-            "pitWindow": [
-              [
-                19,
-                24
-              ]
-            ],
-            "pitWindowStr": "19-24",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 1.775,
-            "pWin": 0.63,
-            "pWinLo": 0.5612250134987606,
-            "pWinHi": 0.6938750249624759,
-            "top5": 1,
-            "downsideP90": 4,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 1.7666666666666666,
-                "pWin": 0.7666666666666667
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 4.5,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 6.3,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 9,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "RUS",
-          "name": "George Russell",
-          "team": "Mercedes",
-          "start": 4,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              20
-            ],
-            "pitWindow": [
-              [
-                18,
-                25
-              ]
-            ],
-            "pitWindowStr": "18-25",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 2.175,
-            "pWin": 0.28,
-            "pWinLo": 0.22236792842635125,
-            "pWinHi": 0.34592431417771,
-            "top5": 0.995,
-            "downsideP90": 4,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 2.566666666666667,
-                "pWin": 0.16666666666666666
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 4.733333333333333,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 6.6,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 10.133333333333333,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "HAD",
-          "name": "Isack Hadjar",
-          "team": "Red Bull",
-          "start": 5,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
               18
-            ],
-            "pitWindow": [
-              [
-                18,
-                28
-              ]
-            ],
-            "pitWindowStr": "18-28",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 7.755,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0.01,
-            "downsideP90": 8,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 7.7,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "medium→soft→soft",
-                "expFinish": 10.1,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 11.766666666666667,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 16.266666666666666,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "NOR",
-          "name": "Lando Norris",
-          "team": "McLaren",
-          "start": 6,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              19
             ],
             "pitWindow": [
               [
@@ -13098,168 +12789,399 @@
               "C2",
               "C1"
             ],
-            "expFinish": 3.8,
-            "pWin": 0.005,
-            "pWinLo": 0.0008831459893662054,
-            "pWinHi": 0.02777439986977148,
-            "top5": 0.96,
+            "expFinish": 2.83,
+            "pWin": 0.165,
+            "pWinLo": 0.11996784122663975,
+            "pWinHi": 0.2226589827386353,
+            "top5": 0.98,
             "downsideP90": 5,
             "byStopCount": [
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 3.966666666666667,
-                "pWin": 0
+                "expFinish": 3.1333333333333333,
+                "pWin": 0.13333333333333333
               },
               {
                 "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 5.633333333333334,
+                "plan": "medium→soft→soft",
+                "expFinish": 5.866666666666666,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 8.133333333333333,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 11.466666666666667,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "VER",
-          "name": "Max Verstappen",
-          "team": "Red Bull",
-          "start": 7,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              25
-            ],
-            "pitWindow": [
-              [
-                18,
-                28
-              ]
-            ],
-            "pitWindowStr": "18-28",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 5.425,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0.68,
-            "downsideP90": 7,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 5.466666666666667,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 7.033333333333333,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 9.733333333333333,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 14.3,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "PIA",
-          "name": "Oscar Piastri",
-          "team": "McLaren",
-          "start": 8,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              25
-            ],
-            "pitWindow": [
-              [
-                18,
-                28
-              ]
-            ],
-            "pitWindowStr": "18-28",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 6.265,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0.125,
-            "downsideP90": 7,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 6.266666666666667,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 7.533333333333333,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 9.666666666666666,
+                "expFinish": 8.2,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
                 "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 16.233333333333334,
+                "expFinish": 10.966666666666667,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 1,
+            "grid": 2,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "start": 4,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              24
+            ],
+            "pitWindow": [
+              [
+                18,
+                27
+              ]
+            ],
+            "pitWindowStr": "18-27",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 2.275,
+            "pWin": 0.325,
+            "pWinLo": 0.2639146705018621,
+            "pWinHi": 0.39268143156955027,
+            "top5": 0.92,
+            "downsideP90": 4,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 2.1666666666666665,
+                "pWin": 0.36666666666666664
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 4.833333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 7.766666666666667,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 9.8,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C2(M)",
+            "finish": 2,
+            "grid": 4,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "start": 3,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              21
+            ],
+            "pitWindow": [
+              [
+                18,
+                27
+              ]
+            ],
+            "pitWindowStr": "18-27",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 1.695,
+            "pWin": 0.665,
+            "pWinLo": 0.5970206277343806,
+            "pWinHi": 0.7267601903125736,
+            "top5": 0.975,
+            "downsideP90": 3,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 1.7666666666666666,
+                "pWin": 0.5666666666666667
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 4.733333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 6.633333333333334,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 9.233333333333333,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 3,
+            "grid": 3,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "start": 6,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              21
+            ],
+            "pitWindow": [
+              [
+                18,
+                28
+              ]
+            ],
+            "pitWindowStr": "18-28",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 3.725,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0.945,
+            "downsideP90": 5,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 3.8333333333333335,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 6.066666666666666,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 8.333333333333334,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 10.366666666666667,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 3,
+            "plan": "C2(M)→C1(H)→C2(M)→C3(S)",
+            "finish": 4,
+            "grid": 6,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "start": 5,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              25
+            ],
+            "pitWindow": [
+              [
+                18,
+                28
+              ]
+            ],
+            "pitWindowStr": "18-28",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 7.905,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 9,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 7.833333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "medium→soft→soft",
+                "expFinish": 9.933333333333334,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 11.466666666666667,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 16.8,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 3,
+            "plan": "C2(M)→C1(H)→C2(M)→C3(S)",
+            "finish": 5,
+            "grid": 5,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "start": 10,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              22
+            ],
+            "pitWindow": [
+              [
+                22,
+                26
+              ]
+            ],
+            "pitWindowStr": "22-26",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 10.56,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 13,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 10,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 11.8,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 15.233333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→medium→soft→soft",
+                "expFinish": 18.066666666666666,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 6,
+            "grid": 10,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
           "code": "LIN",
@@ -13270,7 +13192,7 @@
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              28
+              25
             ],
             "pitWindow": [
               [
@@ -13287,7 +13209,7 @@
               "C2",
               "C1"
             ],
-            "expFinish": 11.545,
+            "expFinish": 12.01,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
@@ -13297,43 +13219,50 @@
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 11.166666666666666,
+                "expFinish": 11.666666666666666,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 13.066666666666666,
+                "expFinish": 12.1,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 15.9,
+                "expFinish": 15.966666666666667,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
                 "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 18.133333333333333,
+                "expFinish": 20.166666666666668,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 7,
+            "grid": 9,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "LAW",
-          "name": "Liam Lawson",
-          "team": "Racing Bulls",
-          "start": 10,
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "start": 11,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              26
+              21
             ],
             "pitWindow": [
               [
@@ -13350,7 +13279,147 @@
               "C2",
               "C1"
             ],
-            "expFinish": 10.185,
+            "expFinish": 10.61,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 12,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 10.9,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "medium→soft→soft",
+                "expFinish": 11.966666666666667,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 15.533333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 19.666666666666668,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 8,
+            "grid": 11,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "start": 19,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              22
+            ],
+            "pitWindow": [
+              [
+                18,
+                26
+              ]
+            ],
+            "pitWindowStr": "18-26",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 13,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 17,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 12.8,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 15.066666666666666,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 17.3,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 18.833333333333332,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 9,
+            "grid": 19,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "start": 15,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              21
+            ],
+            "pitWindow": [
+              [
+                19,
+                27
+              ]
+            ],
+            "pitWindowStr": "19-27",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 10.555,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
@@ -13360,43 +13429,120 @@
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 10.1,
+                "expFinish": 10.666666666666666,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 12.1,
+                "expFinish": 12.3,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 15.9,
+                "expFinish": 15.8,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
-                "plan": "soft→soft→medium→soft→soft",
-                "expFinish": 18.1,
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 18.4,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 10,
+            "grid": 15,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "BOR",
-          "name": "Gabriel Bortoleto",
-          "team": "Audi",
-          "start": 11,
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "start": 8,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              26
+              18
+            ],
+            "pitWindow": [
+              [
+                18,
+                25
+              ]
+            ],
+            "pitWindowStr": "18-25",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 5.99,
+            "pWin": 0.025,
+            "pWinLo": 0.010724561470787708,
+            "pWinHi": 0.05717914415161715,
+            "top5": 0.095,
+            "downsideP90": 7,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 5.933333333333334,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 7.966666666666667,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 10.233333333333333,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 14.2,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 3,
+            "plan": "C2(M)→C1(H)→C2(M)→C3(S)",
+            "finish": 11,
+            "grid": 8,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "start": 13,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              21
             ],
             "pitWindow": [
               [
@@ -13413,61 +13559,68 @@
               "C2",
               "C1"
             ],
-            "expFinish": 10.49,
+            "expFinish": 10.055,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
             "top5": 0,
-            "downsideP90": 13,
+            "downsideP90": 12,
             "byStopCount": [
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 10.466666666666667,
+                "expFinish": 9.9,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
-                "plan": "medium→soft→soft",
-                "expFinish": 11.9,
+                "plan": "soft→soft→medium",
+                "expFinish": 11.966666666666667,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 16.566666666666666,
+                "expFinish": 16.7,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 17.633333333333333,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 19.1,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 12,
+            "grid": 13,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "GAS",
-          "name": "Pierre Gasly",
-          "team": "Alpine",
-          "start": 12,
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "start": 17,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              24
+              23
             ],
             "pitWindow": [
               [
                 18,
-                28
+                26
               ]
             ],
-            "pitWindowStr": "18-28",
+            "pitWindowStr": "18-26",
             "compounds": [
               "medium",
               "hard"
@@ -13476,48 +13629,125 @@
               "C2",
               "C1"
             ],
-            "expFinish": 10.23,
+            "expFinish": 13.525,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
             "top5": 0,
-            "downsideP90": 13,
+            "downsideP90": 18,
             "byStopCount": [
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 10.2,
+                "expFinish": 13.266666666666667,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 11.933333333333334,
+                "expFinish": 16.8,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 16,
+                "expFinish": 18.2,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 17.7,
+                "plan": "soft→medium→soft→soft→soft",
+                "expFinish": 19.666666666666668,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 13,
+            "grid": 17,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "HUL",
-          "name": "Nico Hulkenberg",
-          "team": "Audi",
-          "start": 13,
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "start": 20,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              25
+            ],
+            "pitWindow": [
+              [
+                20,
+                28
+              ]
+            ],
+            "pitWindowStr": "20-28",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 18.785,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 20,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 18.866666666666667,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 19.466666666666665,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 21.033333333333335,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 21.133333333333333,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 14,
+            "grid": 20,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "start": 1,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
@@ -13539,294 +13769,49 @@
               "C2",
               "C1"
             ],
-            "expFinish": 12.485,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 17,
+            "expFinish": 1.075,
+            "pWin": 0.925,
+            "pWinLo": 0.8799554020266798,
+            "pWinHi": 0.9540254929427476,
+            "top5": 1,
+            "downsideP90": 1,
             "byStopCount": [
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 12.466666666666667,
-                "pWin": 0
+                "expFinish": 1.2666666666666666,
+                "pWin": 0.8333333333333334
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 13.5,
-                "pWin": 0
+                "expFinish": 1.8333333333333333,
+                "pWin": 0.3
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 16.266666666666666,
-                "pWin": 0
+                "expFinish": 5.9,
+                "pWin": 0.16666666666666666
               },
               {
                 "stopCount": 4,
-                "plan": "soft→medium→soft→soft→soft",
-                "expFinish": 19.2,
-                "pWin": 0
+                "plan": "soft→soft→soft→medium→soft",
+                "expFinish": 8.466666666666667,
+                "pWin": 0.13333333333333333
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "BEA",
-          "name": "Oliver Bearman",
-          "team": "Haas",
-          "start": 14,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              20
-            ],
-            "pitWindow": [
-              [
-                18,
-                27
-              ]
-            ],
-            "pitWindowStr": "18-27",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 10.645,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 13,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 10.566666666666666,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 11.6,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 15.266666666666667,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 18.333333333333332,
-                "pWin": 0
-              }
-            ]
+          "actual": {
+            "stops": 3,
+            "plan": "C2(M)→C1(H)→C2(M)→C2(M)",
+            "finish": 15,
+            "grid": 1,
+            "status": "Finished",
+            "raced": true
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "SAI",
-          "name": "Carlos Sainz",
-          "team": "Williams",
-          "start": 15,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              20
-            ],
-            "pitWindow": [
-              [
-                20,
-                20
-              ]
-            ],
-            "pitWindowStr": "20",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 13.415,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 18,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 13.9,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 15.933333333333334,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 18.566666666666666,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 19.333333333333332,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "ALB",
-          "name": "Alexander Albon",
-          "team": "Williams",
-          "start": 16,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              22
-            ],
-            "pitWindow": [
-              [
-                18,
-                27
-              ]
-            ],
-            "pitWindowStr": "18-27",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 13.035,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 17,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 13.333333333333334,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 15.333333333333334,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 17.6,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→medium→soft→soft→soft",
-                "expFinish": 18.566666666666666,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "OCO",
-          "name": "Esteban Ocon",
-          "team": "Haas",
-          "start": 17,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              19
-            ],
-            "pitWindow": [
-              [
-                18,
-                23
-              ]
-            ],
-            "pitWindowStr": "18-23",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 13.26,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 18,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 13.6,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 16.666666666666668,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 18.7,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→medium→soft→soft→soft",
-                "expFinish": 19.9,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "stopCountCorrect": false,
+          "compoundCorrect": true
         },
         {
           "code": "BOT",
@@ -13837,15 +13822,15 @@
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              19
+              18
             ],
             "pitWindow": [
               [
-                19,
-                28
+                18,
+                26
               ]
             ],
-            "pitWindowStr": "19-28",
+            "pitWindowStr": "18-26",
             "compounds": [
               "medium",
               "hard"
@@ -13854,7 +13839,7 @@
               "C2",
               "C1"
             ],
-            "expFinish": 20.555,
+            "expFinish": 20.61,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
@@ -13864,7 +13849,7 @@
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 20.633333333333333,
+                "expFinish": 20.4,
                 "pWin": 0
               },
               {
@@ -13887,28 +13872,35 @@
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 16,
+            "grid": 18,
+            "status": "Finished",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "COL",
-          "name": "Franco Colapinto",
-          "team": "Alpine",
-          "start": 19,
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "start": 14,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              20
+              18
             ],
             "pitWindow": [
               [
-                19,
-                20
+                18,
+                26
               ]
             ],
-            "pitWindowStr": "19-20",
+            "pitWindowStr": "18-26",
             "compounds": [
               "medium",
               "hard"
@@ -13917,7 +13909,7 @@
               "C2",
               "C1"
             ],
-            "expFinish": 13.31,
+            "expFinish": 13.43,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
@@ -13927,106 +13919,50 @@
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 13.033333333333333,
+                "expFinish": 13.8,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 14.633333333333333,
+                "expFinish": 15.966666666666667,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 17.3,
-                "pWin": 0
-              },
-              {
-                "stopCount": 4,
-                "plan": "soft→soft→soft→medium→soft",
-                "expFinish": 19.433333333333334,
-                "pWin": 0
-              }
-            ]
-          },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
-        },
-        {
-          "code": "PER",
-          "name": "Sergio Perez",
-          "team": "Cadillac",
-          "start": 20,
-          "predicted": {
-            "stops": 1,
-            "plan": "C2(M)→C1(H)",
-            "pits": [
-              28
-            ],
-            "pitWindow": [
-              [
-                18,
-                28
-              ]
-            ],
-            "pitWindowStr": "18-28",
-            "compounds": [
-              "medium",
-              "hard"
-            ],
-            "compoundsC": [
-              "C2",
-              "C1"
-            ],
-            "expFinish": 18.765,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 20,
-            "byStopCount": [
-              {
-                "stopCount": 1,
-                "plan": "medium→hard",
-                "expFinish": 18.733333333333334,
-                "pWin": 0
-              },
-              {
-                "stopCount": 2,
-                "plan": "soft→soft→medium",
-                "expFinish": 19.6,
-                "pWin": 0
-              },
-              {
-                "stopCount": 3,
-                "plan": "soft→soft→soft→medium",
-                "expFinish": 21,
+                "expFinish": 18.3,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
                 "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 21.5,
+                "expFinish": 19.533333333333335,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 17,
+            "grid": 14,
+            "status": "Lapped",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "STR",
-          "name": "Lance Stroll",
+          "code": "ALO",
+          "name": "Fernando Alonso",
           "team": "Aston Martin",
           "start": 21,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
             "pits": [
-              26
+              23
             ],
             "pitWindow": [
               [
@@ -14043,7 +13979,7 @@
               "C2",
               "C1"
             ],
-            "expFinish": 19.49,
+            "expFinish": 19.735,
             "pWin": 0,
             "pWinLo": 0,
             "pWinHi": 0.018846005918320894,
@@ -14053,38 +13989,115 @@
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 19.366666666666667,
+                "expFinish": 19.5,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 20.233333333333334,
+                "expFinish": 20.266666666666666,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 21.633333333333333,
+                "expFinish": 21.5,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
                 "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 21.733333333333334,
+                "expFinish": 21.4,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
-          "stopCountCorrect": null,
-          "compoundCorrect": null
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 18,
+            "grid": 21,
+            "status": "Lapped",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
         },
         {
-          "code": "ALO",
-          "name": "Fernando Alonso",
+          "code": "STR",
+          "name": "Lance Stroll",
           "team": "Aston Martin",
           "start": 22,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              20
+            ],
+            "pitWindow": [
+              [
+                18,
+                28
+              ]
+            ],
+            "pitWindowStr": "18-28",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 19.685,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 21,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 19.4,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 20.166666666666668,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 21.3,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→soft→soft→soft→medium",
+                "expFinish": 21.166666666666668,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 19,
+            "grid": 22,
+            "status": "Lapped",
+            "raced": true
+          },
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "start": 7,
           "predicted": {
             "stops": 1,
             "plan": "C2(M)→C1(H)",
@@ -14106,40 +14119,187 @@
               "C2",
               "C1"
             ],
-            "expFinish": 19.81,
-            "pWin": 0,
-            "pWinLo": 0,
-            "pWinHi": 0.018846005918320894,
-            "top5": 0,
-            "downsideP90": 21,
+            "expFinish": 5.23,
+            "pWin": 0.025,
+            "pWinLo": 0.010724561470787708,
+            "pWinHi": 0.05717914415161715,
+            "top5": 0.72,
+            "downsideP90": 7,
             "byStopCount": [
               {
                 "stopCount": 1,
                 "plan": "medium→hard",
-                "expFinish": 19.8,
+                "expFinish": 5.466666666666667,
                 "pWin": 0
               },
               {
                 "stopCount": 2,
                 "plan": "soft→soft→medium",
-                "expFinish": 20.566666666666666,
+                "expFinish": 7.1,
                 "pWin": 0
               },
               {
                 "stopCount": 3,
                 "plan": "soft→soft→soft→medium",
-                "expFinish": 21.066666666666666,
+                "expFinish": 9.133333333333333,
                 "pWin": 0
               },
               {
                 "stopCount": 4,
                 "plan": "soft→soft→soft→soft→medium",
-                "expFinish": 21.6,
+                "expFinish": 13.833333333333334,
                 "pWin": 0
               }
             ]
           },
-          "actual": null,
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C2(M)",
+            "finish": 20,
+            "grid": 7,
+            "status": "Retired",
+            "raced": false
+          },
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "start": 16,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              23
+            ],
+            "pitWindow": [
+              [
+                23,
+                26
+              ]
+            ],
+            "pitWindowStr": "23-26",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 13,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 16,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 12.666666666666666,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 15.2,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 17.9,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→medium→soft→soft→soft",
+                "expFinish": 20.2,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 6,
+            "plan": "C2(M)→C1(H)→C2(M)→C3(S)→C3(S)→C3(S)",
+            "finish": 21,
+            "grid": 16,
+            "status": "Retired",
+            "raced": false
+          },
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "start": 12,
+          "predicted": {
+            "stops": 1,
+            "plan": "C2(M)→C1(H)",
+            "pits": [
+              27
+            ],
+            "pitWindow": [
+              [
+                20,
+                28
+              ]
+            ],
+            "pitWindowStr": "20-28",
+            "compounds": [
+              "medium",
+              "hard"
+            ],
+            "compoundsC": [
+              "C2",
+              "C1"
+            ],
+            "expFinish": 11.99,
+            "pWin": 0,
+            "pWinLo": 0,
+            "pWinHi": 0.018846005918320894,
+            "top5": 0,
+            "downsideP90": 14,
+            "byStopCount": [
+              {
+                "stopCount": 1,
+                "plan": "medium→hard",
+                "expFinish": 12.333333333333334,
+                "pWin": 0
+              },
+              {
+                "stopCount": 2,
+                "plan": "soft→soft→medium",
+                "expFinish": 12.8,
+                "pWin": 0
+              },
+              {
+                "stopCount": 3,
+                "plan": "soft→soft→soft→medium",
+                "expFinish": 16.7,
+                "pWin": 0
+              },
+              {
+                "stopCount": 4,
+                "plan": "soft→medium→soft→soft→soft",
+                "expFinish": 19.333333333333332,
+                "pWin": 0
+              }
+            ]
+          },
+          "actual": {
+            "stops": 2,
+            "plan": "C2(M)→C1(H)→C3(S)",
+            "finish": 22,
+            "grid": 12,
+            "status": "Retired",
+            "raced": false
+          },
           "stopCountCorrect": null,
           "compoundCorrect": null
         }
