@@ -74,7 +74,30 @@
     text-decoration: none; display: inline-block;
   }
   .sim-btn:hover { background: var(--accent); color: #fff; }
-  .table-wrap { max-height: 78vh; overflow-y: auto; }
+  /* Scroll the wide table inside its own box (both axes) so the page body never scrolls sideways. */
+  .table-wrap { max-height: 78vh; overflow: auto; -webkit-overflow-scrolling: touch; }
+
+  /* ---- Phones / small tablets ---- */
+  @media (max-width: 720px) {
+    header { padding: 16px 14px 6px; gap: 4px 12px; }
+    header h1 { font-size: 22px; }
+    header .sub { font-size: 12.5px; flex-basis: 100%; }
+    header a { margin-left: 0; }
+    main { padding: 8px 14px 48px; }
+    .disclaimer { font-size: 13px; padding: 12px 14px; }
+    .controls { gap: 10px; margin: 12px 0; }
+    select { font-size: 15px; padding: 8px 10px; width: 100%; }
+    .track-title { font-size: 20px; margin-bottom: 10px; }
+    #trackCanvas { height: 230px; }
+    .panel { padding: 12px; }
+    .metrics-legend { font-size: 12px; }
+    /* Let the page scroll vertically; the table itself scrolls sideways so all columns stay legible. */
+    .table-wrap { max-height: none; }
+    table { min-width: 660px; font-size: 13.5px; }
+    th, td { padding: 8px 9px; }
+    th { font-size: 12px; }
+    .team-bar { height: 20px; }
+  }
 </style>
 </head>
 <body>
