@@ -1,0 +1,266 @@
+{
+  "year": 2026,
+  "generated_utc": "2026-07-04T22:55:59.309776+00:00",
+  "rounds": [
+    {
+      "round": 1,
+      "event": "Australian Grand Prix",
+      "format": "conventional",
+      "date": "2026-03-08",
+      "race": {
+        "available": true,
+        "laps": 1006
+      },
+      "sprint": null
+    },
+    {
+      "round": 2,
+      "event": "Chinese Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-03-15",
+      "race": {
+        "available": true,
+        "laps": 920
+      },
+      "sprint": {
+        "available": true,
+        "laps": 397
+      }
+    },
+    {
+      "round": 3,
+      "event": "Japanese Grand Prix",
+      "format": "conventional",
+      "date": "2026-03-29",
+      "race": {
+        "available": true,
+        "laps": 1107
+      },
+      "sprint": null
+    },
+    {
+      "round": 4,
+      "event": "Miami Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-05-03",
+      "race": {
+        "available": true,
+        "laps": 1040
+      },
+      "sprint": {
+        "available": true,
+        "laps": 380
+      }
+    },
+    {
+      "round": 5,
+      "event": "Canadian Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-05-24",
+      "race": {
+        "available": true,
+        "laps": 1211
+      },
+      "sprint": {
+        "available": true,
+        "laps": 491
+      }
+    },
+    {
+      "round": 6,
+      "event": "Monaco Grand Prix",
+      "format": "conventional",
+      "date": "2026-06-07",
+      "race": {
+        "available": true,
+        "laps": 1452
+      },
+      "sprint": null
+    },
+    {
+      "round": 7,
+      "event": "Barcelona Grand Prix",
+      "format": "conventional",
+      "date": "2026-06-14",
+      "race": {
+        "available": true,
+        "laps": 1236
+      },
+      "sprint": null
+    },
+    {
+      "round": 8,
+      "event": "Austrian Grand Prix",
+      "format": "conventional",
+      "date": "2026-06-28",
+      "race": {
+        "available": true,
+        "laps": 1339
+      },
+      "sprint": null
+    },
+    {
+      "round": 9,
+      "event": "British Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-07-05",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": {
+        "available": true,
+        "laps": 372
+      }
+    },
+    {
+      "round": 10,
+      "event": "Belgian Grand Prix",
+      "format": "conventional",
+      "date": "2026-07-19",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 11,
+      "event": "Hungarian Grand Prix",
+      "format": "conventional",
+      "date": "2026-07-26",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 12,
+      "event": "Dutch Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-08-23",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      }
+    },
+    {
+      "round": 13,
+      "event": "Italian Grand Prix",
+      "format": "conventional",
+      "date": "2026-09-06",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 14,
+      "event": "Spanish Grand Prix",
+      "format": "conventional",
+      "date": "2026-09-13",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 15,
+      "event": "Azerbaijan Grand Prix",
+      "format": "conventional",
+      "date": "2026-09-26",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 16,
+      "event": "Singapore Grand Prix",
+      "format": "sprint_qualifying",
+      "date": "2026-10-11",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      }
+    },
+    {
+      "round": 17,
+      "event": "United States Grand Prix",
+      "format": "conventional",
+      "date": "2026-10-25",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 18,
+      "event": "Mexico City Grand Prix",
+      "format": "conventional",
+      "date": "2026-11-01",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 19,
+      "event": "S\u00e3o Paulo Grand Prix",
+      "format": "conventional",
+      "date": "2026-11-08",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 20,
+      "event": "Las Vegas Grand Prix",
+      "format": "conventional",
+      "date": "2026-11-21",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 21,
+      "event": "Qatar Grand Prix",
+      "format": "conventional",
+      "date": "2026-11-29",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    },
+    {
+      "round": 22,
+      "event": "Abu Dhabi Grand Prix",
+      "format": "conventional",
+      "date": "2026-12-06",
+      "race": {
+        "available": false,
+        "error": "DataNotLoadedError"
+      },
+      "sprint": null
+    }
+  ]
+}

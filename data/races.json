@@ -1,0 +1,224 @@
+{
+  "year": 2026,
+  "races": [
+    {
+      "round": 1,
+      "event": "Australian Grand Prix",
+      "date": "2026-03-08",
+      "total_laps": 58,
+      "base_lap_seconds": 84.79,
+      "corner_time_share": 0.228,
+      "compounds": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5"
+      },
+      "tyre_severity": 1.0,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R1.json",
+      "pace_file": "pace/2026_R1.json",
+      "strategy_file": "strategies/2026_R1.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 27,
+        "soft": 22,
+        "hard": 42
+      },
+      "stint_length_source": "coffeecornermotorsport.com F1 Australian GP 2026 Tyre Strategy (M-H window laps 20-26, S-H window laps 15-21; hard ran 40+ laps in the race without significant degradation)",
+      "pit_loss_seconds": 19
+    },
+    {
+      "round": 2,
+      "event": "Chinese Grand Prix",
+      "date": "2026-03-15",
+      "total_laps": 56,
+      "base_lap_seconds": 98.125,
+      "corner_time_share": 0.322,
+      "compounds": {
+        "hard": "C2",
+        "medium": "C3",
+        "soft": "C4"
+      },
+      "tyre_severity": 1.05,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R2.json",
+      "pace_file": "pace/2026_R2.json",
+      "strategy_file": "strategies/2026_R2.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 24,
+        "hard": 40
+      },
+      "stint_length_source": "coffeecornermotorsport.com F1 Chinese GP 2026 Tyre Preview (M-H window laps 17-23)",
+      "pit_loss_seconds": 22
+    },
+    {
+      "round": 3,
+      "event": "Japanese Grand Prix",
+      "date": "2026-03-29",
+      "total_laps": 53,
+      "base_lap_seconds": 95.332,
+      "corner_time_share": 0.286,
+      "compounds": {
+        "hard": "C1",
+        "medium": "C2",
+        "soft": "C3"
+      },
+      "tyre_severity": 1.15,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R3.json",
+      "pace_file": "pace/2026_R3.json",
+      "strategy_file": "strategies/2026_R3.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 22,
+        "soft": 20,
+        "hard": 39
+      },
+      "stint_length_source": "coffeecornermotorsport.com / grandprix247 2026 Japanese GP Pirelli preview (M-H window laps 15-21, S-H window laps 13-19, soft stays stronger than hard to roughly lap 23)",
+      "pit_loss_seconds": 23
+    },
+    {
+      "round": 4,
+      "event": "Miami Grand Prix",
+      "date": "2026-05-03",
+      "total_laps": 57,
+      "base_lap_seconds": 94.298,
+      "corner_time_share": 0.274,
+      "compounds": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5"
+      },
+      "tyre_severity": 0.9,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R4.json",
+      "pace_file": "pace/2026_R4.json",
+      "strategy_file": "strategies/2026_R4.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 26,
+        "hard": 32
+      },
+      "stint_length_source": "coffeecornermotorsport.com / F1 Miami GP 2026 Tyre Preview (average stint length: hard 29.7 laps, medium 24.3 laps; M-H window laps 22-28)",
+      "pit_loss_seconds": 19
+    },
+    {
+      "round": 5,
+      "event": "Canadian Grand Prix",
+      "date": "2026-05-24",
+      "total_laps": 68,
+      "base_lap_seconds": 76.829,
+      "corner_time_share": 0.312,
+      "compounds": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5"
+      },
+      "tyre_severity": 0.85,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R5.json",
+      "pace_file": "pace/2026_R5.json",
+      "strategy_file": "strategies/2026_R5.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 28,
+        "soft": 24,
+        "hard": 45
+      },
+      "stint_length_source": "coffeecornermotorsport.com F1 Canadian GP 2026 Tyre Preview (M-H window laps 21-27; hard-led first stint extended to laps 38-44; S-H window laps 17-23)",
+      "pit_loss_seconds": 16
+    },
+    {
+      "round": 6,
+      "event": "Monaco Grand Prix",
+      "date": "2026-06-07",
+      "total_laps": 78,
+      "base_lap_seconds": 77.409,
+      "corner_time_share": 0.55,
+      "compounds": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5"
+      },
+      "tyre_severity": 0.75,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com 'From Monaco to Montreal, all the compounds in play'); Monaco's smooth asphalt gives traditionally very low degradation, hence the low severity estimate.",
+      "track_file": "tracks/2026_R6.json",
+      "pace_file": "pace/2026_R6.json",
+      "strategy_file": "strategies/2026_R6.json",
+      "status": "completed",
+      "pit_loss_seconds": 19
+    },
+    {
+      "round": 7,
+      "event": "Barcelona Grand Prix",
+      "date": "2026-06-14",
+      "total_laps": 66,
+      "base_lap_seconds": 83.325,
+      "corner_time_share": 0.336,
+      "compounds": {
+        "hard": "C2",
+        "medium": "C3",
+        "soft": "C4"
+      },
+      "tyre_severity": 1.2,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R7.json",
+      "pace_file": "pace/2026_R7.json",
+      "strategy_file": "strategies/2026_R7.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "soft": 19,
+        "medium": 22,
+        "hard": 30
+      },
+      "stint_length_source": "coffeecornermotorsport.com F1 Spanish GP 2026 Tyre Preview (S-M-H windows laps 12-18 and 34-40; M-H-H windows laps 15-21 and 38-44)",
+      "pit_loss_seconds": 21
+    },
+    {
+      "round": 8,
+      "event": "Austrian Grand Prix",
+      "date": "2026-06-28",
+      "total_laps": 71,
+      "base_lap_seconds": 72.72,
+      "corner_time_share": 0.276,
+      "compounds": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5"
+      },
+      "tyre_severity": 0.9,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R8.json",
+      "pace_file": "pace/2026_R8.json",
+      "strategy_file": "strategies/2026_R8.json",
+      "status": "completed",
+      "stint_length_hints": {
+        "medium": 36,
+        "soft": 20
+      },
+      "stint_length_source": "f1.vpesports.com / coffeecornermotorsport.com 2026 Austrian GP Pirelli preview (medium tyre covers over 35 laps at the Red Bull Ring without catastrophic degradation; first stop window laps 13-19)",
+      "pit_loss_seconds": 20
+    },
+    {
+      "round": 9,
+      "event": "British Grand Prix",
+      "date": "2026-07-05",
+      "total_laps": 52,
+      "base_lap_seconds": 91.0,
+      "corner_time_share": 0.35,
+      "compounds": {
+        "hard": "C1",
+        "medium": "C2",
+        "soft": "C3"
+      },
+      "tyre_severity": 1.25,
+      "compounds_source": "Pirelli official 2026 nomination (press.pirelli.com / formula1.com previews)",
+      "track_file": "tracks/2026_R9.json",
+      "pace_file": null,
+      "strategy_file": null,
+      "status": "upcoming",
+      "pit_loss_seconds": 23
+    }
+  ]
+}

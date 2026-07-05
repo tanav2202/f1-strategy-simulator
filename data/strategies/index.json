@@ -1,0 +1,61 @@
+{
+  "year": 2026,
+  "rounds": [
+    {
+      "round": 1,
+      "event": "Australian Grand Prix",
+      "date": "2026-03-08",
+      "total_laps": 58,
+      "file": "2026_R1.json"
+    },
+    {
+      "round": 2,
+      "event": "Chinese Grand Prix",
+      "date": "2026-03-15",
+      "total_laps": 56,
+      "file": "2026_R2.json"
+    },
+    {
+      "round": 3,
+      "event": "Japanese Grand Prix",
+      "date": "2026-03-29",
+      "total_laps": 53,
+      "file": "2026_R3.json"
+    },
+    {
+      "round": 4,
+      "event": "Miami Grand Prix",
+      "date": "2026-05-03",
+      "total_laps": 57,
+      "file": "2026_R4.json"
+    },
+    {
+      "round": 5,
+      "event": "Canadian Grand Prix",
+      "date": "2026-05-24",
+      "total_laps": 68,
+      "file": "2026_R5.json"
+    },
+    {
+      "round": 6,
+      "event": "Monaco Grand Prix",
+      "date": "2026-06-07",
+      "total_laps": 78,
+      "file": "2026_R6.json"
+    },
+    {
+      "round": 7,
+      "event": "Barcelona Grand Prix",
+      "date": "2026-06-14",
+      "total_laps": 66,
+      "file": "2026_R7.json"
+    },
+    {
+      "round": 8,
+      "event": "Austrian Grand Prix",
+      "date": "2026-06-28",
+      "total_laps": 71,
+      "file": "2026_R8.json"
+    }
+  ]
+}

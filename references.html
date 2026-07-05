@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>F1 Strategy Simulator - References</title>
+<style>
+  :root {
+    --bg: #f4f4f6;
+    --panel: #ffffff;
+    --ink: #15151e;
+    --muted: #6b7280;
+    --accent: #e10600;
+    --line: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  body::before { content: ""; display: block; height: 4px; background: var(--accent); }
+  header { max-width: 900px; margin: 0 auto; padding: 24px 20px 8px; }
+  header h1 { font-size: 22px; margin: 0 0 4px; }
+  header .sub { color: var(--muted); font-size: 13px; }
+  a.back { display: inline-block; margin-top: 10px; font-size: 13px; color: var(--accent); text-decoration: none; }
+  a.back:hover { text-decoration: underline; }
+  main { max-width: 900px; margin: 0 auto; padding: 8px 20px 60px; }
+  .callout {
+    background: #fff5f4; border: 1px solid #f3c9c6; border-left: 4px solid var(--accent);
+    border-radius: 8px; padding: 14px 16px; margin: 18px 0; font-size: 13.5px;
+  }
+  section { margin-top: 30px; }
+  section h2 {
+    font-size: 15px; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted);
+    border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-bottom: 14px;
+  }
+  .src { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; }
+  .src .claim { font-weight: 600; font-size: 13.5px; margin-bottom: 4px; }
+  .src .link { font-size: 12.5px; }
+  .src .link a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .src .link a:hover { text-decoration: underline; }
+  .tag { display: inline-block; font-size: 10.5px; font-weight: 700; padding: 1px 7px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+  .tag.primary { background: #e7f6ec; color: #1a7a3d; }
+  .tag.search { background: #fff3e0; color: #a15c00; }
+  .tag.academic { background: #eef2ff; color: #3730a3; }
+  footer { max-width: 900px; margin: 0 auto; padding: 20px 20px 50px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>References</h1>
+  <div class="sub">Every external source used to calibrate the tyre model, compound allocation, and data pipeline.</div>
+  <a class="back" href="./index.html">&larr; Back to predictions</a>
+  <a class="back" href="./simulator.html" style="margin-left:16px;">Interactive simulator</a>
+</header>
+<main>
+
+  <div class="callout">
+    <b>How to read the tags:</b>
+    <span class="tag primary">PRIMARY</span> a page we fetched directly and read in full, highest confidence.
+    <span class="tag search">SEARCH</span> a fact corroborated via web search snippets, not
+    independently opened, treat as a reasonable, but not independently re-verified, secondary
+    source.
+    <span class="tag academic">ACADEMIC</span> a paper or preprint behind the optimiser's
+    algorithm design (survey, not a live data source).
+  </div>
+
+  <section>
+    <h2>2026 Pirelli compound allocation (per track, hard/medium/soft &rarr; C1&ndash;C5)</h2>
+
+    <div class="src">
+      <div class="claim">Australia (C3/C4/C5), China (C2/C3/C4), Japan (C1/C2/C3), first three 2026 Grands Prix</div>
+      <div class="link"><a href="https://press.pirelli.com/complete-f1-tyre-range-for-the-first-three-grands-prix-of-2026/" target="_blank" rel="noopener">press.pirelli.com, Complete F1 tyre range for the first three Grands Prix of 2026</a></div>
+      <span class="tag primary">PRIMARY</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">Miami (C3/C4/C5), Austria (C3/C4/C5), British GP/Silverstone (C1/C2/C3, hardest trio in the range)</div>
+      <div class="link"><a href="https://www.formula1.com/en/latest/article/what-tyres-will-the-teams-and-drivers-have-for-the-2026-british-grand-prix.3qD9d5o8X4x3se0F7Zg5i1" target="_blank" rel="noopener">formula1.com, What tyres will teams have for the 2026 British Grand Prix?</a></div>
+      <div class="link"><a href="https://www.pitpass.com/82890/Pirelli-reveals-Austrian-and-British-GP-tyre-compounds" target="_blank" rel="noopener">pitpass.com, Pirelli reveals Austrian and British GP tyre compounds</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">Barcelona / Spanish GP (C2/C3/C4, deliberately softer than usual, to bring the hard into play)</div>
+      <div class="link"><a href="https://press.pirelli.com/no-surprises-for-the-compounds-for-spain-austria-and-great-britain/" target="_blank" rel="noopener">press.pirelli.com, No surprises for the compounds for Spain, Austria and Great Britain</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">Canada / Montreal (C3/C4/C5, softer than the previous C4/C5/C6 range now that C6 is retired)</div>
+      <div class="link"><a href="https://www.grandprix247.com/formula-1-news/pirelli-reveal-formula-1-tyre-compounds-for-miami-and-montreal" target="_blank" rel="noopener">grandprix247.com, Pirelli reveal tyre compounds for Miami and Montreal</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">2026 range drops C6 entirely, three compounds chosen per race from C1 (hardest) to C5 (softest)</div>
+      <div class="link"><a href="https://www.formula1.com/en/latest/article/pirelli-confirm-2026-tyre-compounds-as-f1-gets-set-for-a-new-era-of.6la0zKVsCYwWk9AAISz4Yw" target="_blank" rel="noopener">formula1.com, Pirelli confirm 2026 tyre compounds</a></div>
+      <span class="tag primary">PRIMARY</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tyre-set allocation &amp; stint-length limits</h2>
+
+    <div class="src">
+      <div class="claim">Standard 2026 dry-race allocation: 2 hard sets, 3 medium sets, 8 soft sets per driver per weekend (13 total; used directly as <code>tyre_allocation</code> in <code>data/constants.json</code>)</div>
+      <div class="link"><a href="https://f1.vpesports.com/pirelli-tyre-strategy-guide-for-the-2026-austrian-gp-compounds-degradation-and-race-plans/" target="_blank" rel="noopener">f1.vpesports.com, Pirelli Tyre Strategy Guide for the 2026 Austrian GP</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">There is <b>no official blanket FIA/Pirelli "maximum laps per compound" rule</b>, the only real precedent is a one-off, track-specific 25-lap mandate for the abrasive 2025 Qatar surface, not a universal rule. Our per-compound <code>max_stint_laps</code> ("cliff") figures are a sourced technical estimate, not a cited regulation, see the honesty note in <code>data/constants.json</code>.</div>
+      <div class="link"><a href="https://www.formula1.com/en/latest/article/explained-what-does-the-maximum-tyre-stint-length-rule-mean-for-the-qatar.4q8iXkNgE3sLnIIASPV1sm" target="_blank" rel="noopener">formula1.com, Explained: what does the maximum tyre stint length rule mean for Qatar?</a></div>
+      <div class="link"><a href="https://www.racefans.net/2025/11/17/f1-limits-drivers-to-just-25-laps-per-set-of-tyres-for-qatar-grand-prix/" target="_blank" rel="noopener">racefans.net, F1 limits drivers to just 25 laps per set for Qatar</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+
+    <div class="src">
+      <div class="claim">General compound working-life characterisation used to shape the monotonic C1&ndash;C5 cliff-length model: softest/red compounds show noticeable degradation within 6&ndash;8 laps; hardest/white compounds comfortably run 20&ndash;40+ laps</div>
+      <div class="link"><a href="https://www.redbull.com/ie-en/tires-f1" target="_blank" rel="noopener">redbull.com, Formula 1 tires: everything you need to know</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Per-track stint-length guidance (official Pirelli race previews)</h2>
+    <div class="callout" style="margin-top:0;">
+      <b>Honest result of this research:</b> we initially wired these sourced numbers in directly
+      as each compound's maximum stint length, and it made the model's own recommendations
+      measurably worse (stop-count agreement against real 2026 races dropped from 78/134 to
+      65/134). The reason: a Pirelli preview's "can cover 35 laps without catastrophic
+      degradation" describes what a tyre can survive, not what a team should choose to run, real
+      strategists usually pit well before that point for reasons (track position, undercut risk)
+      our degradation model doesn't fully price in. Loosening our ceiling to match let the
+      optimiser exploit stints that are technically legal but not realistic. These figures are now
+      wired in as a <b>tightening-only</b> check (they only shorten our estimate, never lengthen
+      it), and for every track below that currently has no effect, since our existing estimates
+      were already more conservative than Pirelli's stated survivable maximums. Kept here as a
+      validated cross-check and for any future track where that might not hold.
+    </div>
+
+    <div class="src">
+      <div class="claim">Australia: Medium-Hard stop window laps 20-26, Soft-Hard window laps 15-21; hard tyre ran 40+ laps in the actual race without significant degradation</div>
+      <div class="link"><a href="https://coffeecornermotorsport.com/f1-australian-grand-prix-2026-tyre-strategy/" target="_blank" rel="noopener">coffeecornermotorsport.com, F1 Australian Grand Prix 2026 Tyre Strategy</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">China: Medium-Hard stop window laps 17-23; leading drivers in comparable prior races extended the first (medium) stint to lap 14-15 before switching</div>
+      <div class="link"><a href="https://coffeecornermotorsport.com/f1-chinese-grand-prix-2026-tyre-preview/" target="_blank" rel="noopener">coffeecornermotorsport.com, F1 Chinese Grand Prix 2026 Tyre Preview</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Japan: Medium-Hard window laps 15-21, Soft-Hard window laps 13-19, Soft-Medium window laps 18-24; soft stays quicker than hard up to roughly lap 23</div>
+      <div class="link"><a href="https://www.grandprix247.com/formula-1-news/pirelli-previews-the-2026-japanese-grand-prix-at-suzuka" target="_blank" rel="noopener">grandprix247.com, Pirelli previews the 2026 Japanese Grand Prix at Suzuka</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Miami: average stint length across the field, hard 29.7 laps, medium 24.3 laps; Medium-Hard stop window laps 22-28</div>
+      <div class="link"><a href="https://coffeecornermotorsport.com/f1-miami-grand-prix-2026-tyre-preview/" target="_blank" rel="noopener">coffeecornermotorsport.com, F1 Miami Grand Prix 2026 Tyre Preview</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Canada: Medium-Hard window laps 21-27; a hard-led alternative extended the first stint to laps 38-44; Soft-Hard window laps 17-23</div>
+      <div class="link"><a href="https://coffeecornermotorsport.com/f1-canadian-grand-prix-2026-tyre-preview/" target="_blank" rel="noopener">coffeecornermotorsport.com, Essential Guide: F1 Canadian Grand Prix 2026 tyre preview</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Barcelona: three modelled strategies with windows at laps 12-18/34-40, 15-21/38-44, and 19-25/45-51 depending on the soft/medium/hard sequence chosen</div>
+      <div class="link"><a href="https://coffeecornermotorsport.com/f1-spanish-grand-prix-2026-tyre-preview/" target="_blank" rel="noopener">coffeecornermotorsport.com, F1 Spanish Grand Prix 2026 Tyre Preview</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Austria: medium tyre can cover over 35 laps at the Red Bull Ring without catastrophic degradation; first stop window laps 13-19, second stop window laps 46-52; Pirelli's own framing still called it a two-stop track</div>
+      <div class="link"><a href="https://f1.vpesports.com/pirelli-tyre-strategy-guide-for-the-2026-austrian-gp-compounds-degradation-and-race-plans/" target="_blank" rel="noopener">f1.vpesports.com, Pirelli Tyre Strategy Guide for the 2026 Austrian GP</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">Silverstone: no explicit stint-length figure found (only that the C1 hard mostly does practice-day work and races favour a C2-Medium/C3-Soft one-stop), so this track still uses the generic model only. Also found Silverstone's real pit-lane time is 23 seconds, our calibrated estimate is 20.5s, a small discrepancy not yet corrected.</div>
+      <div class="link"><a href="https://blog.f1livepulse.com/pirelli-preview-2026-british-grand-prix-silverstone" target="_blank" rel="noopener">blog.f1livepulse.com, Pirelli preview: 2026 British Grand Prix tyres &amp; strategy</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Base pace &amp; pit-loss calibration (v1, Silverstone)</h2>
+    <div class="src">
+      <div class="claim">2026 British GP qualifying/sprint-quali pole time, used to anchor <code>base_lap_seconds</code></div>
+      <div class="link"><a href="https://www.formula1.com/" target="_blank" rel="noopener">formula1.com, 2026 British Grand Prix qualifying / sprint qualifying results</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+    <div class="src">
+      <div class="claim">2025 British GP fastest race laps, used as the low-fuel pace floor</div>
+      <div class="link"><a href="https://www.formula1.com/" target="_blank" rel="noopener">formula1.com, 2025 British Grand Prix race results / fastest laps</a></div>
+      <span class="tag search">SEARCH</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Data pipeline</h2>
+    <div class="src">
+      <div class="claim">FastF1, lap timing, telemetry, tyre compound/age (<code>TyreLife</code>/<code>FreshTyre</code>), position data (GPS) for real pace, deg, and now the high-fidelity track outlines</div>
+      <div class="link"><a href="https://docs.fastf1.dev/" target="_blank" rel="noopener">docs.fastf1.dev</a></div>
+      <span class="tag primary">PRIMARY</span>
+    </div>
+    <div class="src">
+      <div class="claim">OpenF1 / Jolpica-Ergast, considered as alternative/supplementary data APIs during the pipeline design</div>
+      <div class="link"><a href="https://openf1.org/" target="_blank" rel="noopener">openf1.org</a></div>
+      <span class="tag primary">PRIMARY</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Algorithm design literature (optimiser survey, see <code>docs/strategy-research.md</code> for the full write-up)</h2>
+    <div class="src">
+      <div class="claim">Optimization of pit-stop strategies in Formula 1 racing (operations-research formulation behind the DP per-stop-count design)</div>
+      <div class="link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221724005484" target="_blank" rel="noopener">ScienceDirect, European Journal of Operational Research (2024)</a></div>
+      <div class="link"><a href="https://repositorio.uchile.cl/bitstream/handle/2250/199664/Optimization-of-pit-stop-strategies-in-Formula-1-racing.pdf" target="_blank" rel="noopener">Preprint PDF (Universidad de Chile repository)</a></div>
+      <span class="tag academic">ACADEMIC</span>
+    </div>
+    <div class="src">
+      <div class="claim">Aguad &amp; Thraves, Stackelberg game formulation of the undercut, informing the rival black-box under/overcut policy in <code>field.js</code></div>
+      <div class="link"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4470115" target="_blank" rel="noopener">SSRN 4470115</a></div>
+      <span class="tag academic">ACADEMIC</span>
+    </div>
+    <div class="src">
+      <div class="claim">Thomas et al., Explainable RL for F1 strategy (Mercedes + Imperial College)</div>
+      <div class="link"><a href="https://arxiv.org/pdf/2501.04068" target="_blank" rel="noopener">arXiv 2501.04068</a></div>
+      <span class="tag academic">ACADEMIC</span>
+    </div>
+    <div class="src">
+      <div class="claim">Race-strategy reinforcement learning &amp; deep-learning decision support (surveyed, not implemented in v2)</div>
+      <div class="link"><a href="https://link.springer.com/article/10.1007/s10994-026-07081-3" target="_blank" rel="noopener">Springer Machine Learning</a></div>
+      <div class="link"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12626961/" target="_blank" rel="noopener">Frontiers / PMC</a></div>
+      <span class="tag academic">ACADEMIC</span>
+    </div>
+    <div class="src">
+      <div class="claim">F1 tyre &amp; allocation basics (background reading for the compound model)</div>
+      <div class="link"><a href="https://www.formula1.com/en/latest/article/the-beginners-guide-to-formula-1-tyres.61SvF0Kfg29UR2SPhakDqd" target="_blank" rel="noopener">formula1.com, The beginner's guide to F1 tyres</a></div>
+      <span class="tag primary">PRIMARY</span>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

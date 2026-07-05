@@ -1,0 +1,30 @@
+{
+  "_comment": "Default starting grid = 2026 British GP QUALIFYING result (Saturday), Silverstone (real, fetched from crash.net / formula1.com). carId equals the default grid slot: drivers[0] is P1, drivers[21] is P22. The engine takes `grid` as an array of carIds in P1..PN order; default_grid below is that array for this ordering. Team `color` is driver/team identity metadata for labels and the map dots. Q3 lap times are not all published per driver, so only pole is recorded; pace in v1 is flattened (spec sections 1-2), so these times are NOT used for per-car race pace anyway.",
+  "source": "2026 British Grand Prix Qualifying, Silverstone",
+  "pole_time_seconds": 88.111,
+  "drivers": [
+    { "id": 0,  "code": "ANT", "name": "Kimi Antonelli",     "team": "Mercedes",      "number": 12, "color": "#27F4D2", "q3_seconds": 88.111 },
+    { "id": 1,  "code": "LEC", "name": "Charles Leclerc",    "team": "Ferrari",       "number": 16, "color": "#E8002D", "q3_seconds": 88.286 },
+    { "id": 2,  "code": "HAM", "name": "Lewis Hamilton",     "team": "Ferrari",       "number": 44, "color": "#E8002D", "q3_seconds": null },
+    { "id": 3,  "code": "RUS", "name": "George Russell",     "team": "Mercedes",      "number": 63, "color": "#27F4D2", "q3_seconds": 88.481 },
+    { "id": 4,  "code": "HAD", "name": "Isack Hadjar",       "team": "Red Bull",      "number": 6,  "color": "#3671C6", "q3_seconds": null },
+    { "id": 5,  "code": "NOR", "name": "Lando Norris",       "team": "McLaren",       "number": 1,  "color": "#FF8000", "q3_seconds": null },
+    { "id": 6,  "code": "VER", "name": "Max Verstappen",     "team": "Red Bull",      "number": 3,  "color": "#3671C6", "q3_seconds": null },
+    { "id": 7,  "code": "PIA", "name": "Oscar Piastri",      "team": "McLaren",       "number": 81, "color": "#FF8000", "q3_seconds": null },
+    { "id": 8,  "code": "LIN", "name": "Arvid Lindblad",     "team": "Racing Bulls",  "number": 41, "color": "#6692FF", "q3_seconds": null },
+    { "id": 9,  "code": "LAW", "name": "Liam Lawson",        "team": "Racing Bulls",  "number": 30, "color": "#6692FF", "q3_seconds": null },
+    { "id": 10, "code": "BOR", "name": "Gabriel Bortoleto",  "team": "Audi",          "number": 5,  "color": "#4DA65A", "q3_seconds": null },
+    { "id": 11, "code": "GAS", "name": "Pierre Gasly",       "team": "Alpine",        "number": 10, "color": "#0093CC", "q3_seconds": null },
+    { "id": 12, "code": "HUL", "name": "Nico Hulkenberg",    "team": "Audi",          "number": 27, "color": "#4DA65A", "q3_seconds": null },
+    { "id": 13, "code": "BEA", "name": "Oliver Bearman",     "team": "Haas",          "number": 87, "color": "#B6BABD", "q3_seconds": null },
+    { "id": 14, "code": "SAI", "name": "Carlos Sainz",       "team": "Williams",      "number": 55, "color": "#64C4FF", "q3_seconds": null },
+    { "id": 15, "code": "ALB", "name": "Alexander Albon",    "team": "Williams",      "number": 23, "color": "#64C4FF", "q3_seconds": null },
+    { "id": 16, "code": "OCO", "name": "Esteban Ocon",       "team": "Haas",          "number": 31, "color": "#B6BABD", "q3_seconds": null },
+    { "id": 17, "code": "BOT", "name": "Valtteri Bottas",    "team": "Cadillac",      "number": 77, "color": "#C6A15B", "q3_seconds": null },
+    { "id": 18, "code": "COL", "name": "Franco Colapinto",   "team": "Alpine",        "number": 43, "color": "#0093CC", "q3_seconds": null },
+    { "id": 19, "code": "PER", "name": "Sergio Perez",       "team": "Cadillac",      "number": 11, "color": "#C6A15B", "q3_seconds": null },
+    { "id": 20, "code": "STR", "name": "Lance Stroll",       "team": "Aston Martin",  "number": 18, "color": "#229971", "q3_seconds": null },
+    { "id": 21, "code": "ALO", "name": "Fernando Alonso",    "team": "Aston Martin",  "number": 14, "color": "#229971", "q3_seconds": null }
+  ],
+  "default_grid": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+}

@@ -1,0 +1,107 @@
+{
+  "year": 2026,
+  "round": 4,
+  "event": "Miami Grand Prix",
+  "date": "2026-05-03",
+  "generated_utc": "2026-07-04T23:04:21.265725+00:00",
+  "notes": "pace_delta/corner_delta/straight_delta are seconds slower than the best car; corner/straight on fixed track zones, median of fastest clean laps; deg is within-stint fuel-corrected.",
+  "deg_per_lap_s": {
+    "medium": 0.0467,
+    "hard": 0.0616,
+    "soft": 0.0234
+  },
+  "corner_speed_kmh": 200.0,
+  "corner_time_share": 0.274,
+  "drivers": {
+    "NOR": {
+      "pace_delta_s": 0.014,
+      "corner_delta_s": 0.385,
+      "straight_delta_s": 0.0
+    },
+    "PER": {
+      "pace_delta_s": 3.407,
+      "corner_delta_s": 1.293,
+      "straight_delta_s": 2.256
+    },
+    "ANT": {
+      "pace_delta_s": 0.0,
+      "corner_delta_s": 0.0,
+      "straight_delta_s": 0.269
+    },
+    "ALO": {
+      "pace_delta_s": 3.486,
+      "corner_delta_s": 1.061,
+      "straight_delta_s": 1.43
+    },
+    "LEC": {
+      "pace_delta_s": 0.538,
+      "corner_delta_s": 0.259,
+      "straight_delta_s": 0.536
+    },
+    "STR": {
+      "pace_delta_s": 3.147,
+      "corner_delta_s": 0.983,
+      "straight_delta_s": 2.116
+    },
+    "ALB": {
+      "pace_delta_s": 2.015,
+      "corner_delta_s": 1.196,
+      "straight_delta_s": 1.049
+    },
+    "VER": {
+      "pace_delta_s": 0.922,
+      "corner_delta_s": 0.706,
+      "straight_delta_s": 0.751
+    },
+    "OCO": {
+      "pace_delta_s": 2.234,
+      "corner_delta_s": 0.847,
+      "straight_delta_s": 1.424
+    },
+    "LIN": {
+      "pace_delta_s": 2.661,
+      "corner_delta_s": 0.975,
+      "straight_delta_s": 1.479
+    },
+    "COL": {
+      "pace_delta_s": 1.382,
+      "corner_delta_s": 0.761,
+      "straight_delta_s": 0.497
+    },
+    "HAM": {
+      "pace_delta_s": 0.965,
+      "corner_delta_s": 0.031,
+      "straight_delta_s": 0.827
+    },
+    "BOR": {
+      "pace_delta_s": 2.125,
+      "corner_delta_s": 0.319,
+      "straight_delta_s": 1.494
+    },
+    "SAI": {
+      "pace_delta_s": 1.776,
+      "corner_delta_s": 1.088,
+      "straight_delta_s": 0.801
+    },
+    "RUS": {
+      "pace_delta_s": 0.949,
+      "corner_delta_s": 0.889,
+      "straight_delta_s": 0.094
+    },
+    "BOT": {
+      "pace_delta_s": 5.203,
+      "corner_delta_s": 2.205,
+      "straight_delta_s": 2.605
+    },
+    "PIA": {
+      "pace_delta_s": 0.614,
+      "corner_delta_s": 0.606,
+      "straight_delta_s": 0.047
+    },
+    "BEA": {
+      "pace_delta_s": 1.923,
+      "corner_delta_s": 1.268,
+      "straight_delta_s": 0.857
+    }
+  }
+}

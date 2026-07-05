@@ -1,0 +1,3664 @@
+{
+  "generated_utc": "2026-07-05T11:08:52.459Z",
+  "rounds": [
+    {
+      "round": 1,
+      "event": "Australian Grand Prix",
+      "date": "2026-03-08",
+      "totalLaps": 58,
+      "weather": "DRY",
+      "priorRounds": 0,
+      "compoundAllocation": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5",
+        "severity": 1
+      },
+      "stopCountAgreement": {
+        "correct": 7,
+        "total": 17
+      },
+      "compoundAgreement": {
+        "correct": 11,
+        "total": 17
+      },
+      "drivers": [
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 5.19,
+          "predictedPWin": 0.165,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 2,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 5.96,
+          "predictedPWin": 0.19,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 3,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 7.17,
+          "predictedPWin": 0.12,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 4,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 8.305,
+          "predictedPWin": 0.07,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 5,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 7.755,
+          "predictedPWin": 0.08,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 6,
+          "actualGrid": 20,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 11.71,
+          "predictedPWin": 0.03,
+          "actualStops": 2,
+          "actualPlan": "C3(H)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 7,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 9.38,
+          "predictedPWin": 0.055,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 8,
+          "actualGrid": 9,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 8.95,
+          "predictedPWin": 0.06,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 9,
+          "actualGrid": 10,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 8.715,
+          "predictedPWin": 0.07,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 10,
+          "actualGrid": 14,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.14,
+          "predictedPWin": 0.045,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 11,
+          "actualGrid": 13,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 9.93,
+          "predictedPWin": 0.055,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 12,
+          "actualGrid": 15,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.21,
+          "predictedPWin": 0.045,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 13,
+          "actualGrid": 8,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 8.335,
+          "predictedPWin": 0.085,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 14,
+          "actualGrid": 16,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 9.825,
+          "predictedPWin": 0.045,
+          "actualStops": 2,
+          "actualPlan": "C3(H)→C3(H)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 15,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 11.125,
+          "predictedPWin": 0.05,
+          "actualStops": 3,
+          "actualPlan": "C5(S)→C3(H)→C4(M)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 16,
+          "actualGrid": 18,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.99,
+          "predictedPWin": 0.035,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 17,
+          "actualGrid": 22,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 11.34,
+          "predictedPWin": 0.045,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 18,
+          "actualGrid": 17,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.835,
+          "predictedPWin": 0.04,
+          "actualStops": 3,
+          "actualPlan": "C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 19,
+          "actualGrid": 19,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.46,
+          "predictedPWin": 0.045,
+          "actualStops": 1,
+          "actualPlan": "C3(H)→C3(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 20,
+          "actualGrid": 3,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 6.84,
+          "predictedPWin": 0.15,
+          "actualStops": 0,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 21,
+          "actualGrid": 5,
+          "actualStatus": "Did not start",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 7.645,
+          "predictedPWin": 0.125,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 22,
+          "actualGrid": 11,
+          "actualStatus": "Did not start",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 9.04,
+          "predictedPWin": 0.075,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "event": "Chinese Grand Prix",
+      "date": "2026-03-15",
+      "totalLaps": 56,
+      "weather": "DRY",
+      "priorRounds": 1,
+      "compoundAllocation": {
+        "hard": "C2",
+        "medium": "C3",
+        "soft": "C4",
+        "severity": 1.05
+      },
+      "stopCountAgreement": {
+        "correct": 13,
+        "total": 15
+      },
+      "compoundAgreement": {
+        "correct": 13,
+        "total": 15
+      },
+      "drivers": [
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 3.335,
+          "predictedPWin": 0.29,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 2,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 2.385,
+          "predictedPWin": 0.635,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 3,
+          "actualGrid": 3,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 4.15,
+          "predictedPWin": 0.135,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 4,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 2.12,
+          "predictedPWin": 0.715,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 5,
+          "actualGrid": 10,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 10.09,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 6,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 16.995,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 7,
+          "actualGrid": 14,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 12.705,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 8,
+          "actualGrid": 9,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 2.69,
+          "predictedPWin": 0.24,
+          "actualStops": 2,
+          "actualPlan": "C4(S)→C2(H)→C2(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 9,
+          "actualGrid": 17,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 14.645,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 10,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 17.04,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(H)→C3(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 11,
+          "actualGrid": 11,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 4.22,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(H)→C3(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 12,
+          "actualGrid": 15,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 11.74,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(H)→C3(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 13,
+          "actualGrid": 19,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 15.26,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 14,
+          "actualGrid": 13,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 15.965,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C2(H)→C3(M)→C4(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 15,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 19.27,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 16,
+          "actualGrid": 8,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 6.5,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(S)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 17,
+          "actualGrid": 18,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 7.11,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C2(H)→C3(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 18,
+          "actualGrid": 20,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 10.355,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 19,
+          "actualGrid": 5,
+          "actualStatus": "Did not start",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 3.63,
+          "predictedPWin": 0.02,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 20,
+          "actualGrid": 6,
+          "actualStatus": "Did not start",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 6.05,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 21,
+          "actualGrid": 16,
+          "actualStatus": "Did not start",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 7.045,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 22,
+          "actualGrid": 22,
+          "actualStatus": "Did not start",
+          "predictedStops": 1,
+          "predictedPlan": "C3(M)→C2(H)",
+          "predictedPits": [
+            24
+          ],
+          "predictedExpFinish": 11.91,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "event": "Japanese Grand Prix",
+      "date": "2026-03-29",
+      "totalLaps": 53,
+      "weather": "DRY",
+      "priorRounds": 2,
+      "compoundAllocation": {
+        "hard": "C1",
+        "medium": "C2",
+        "soft": "C3",
+        "severity": 1.15
+      },
+      "stopCountAgreement": {
+        "correct": 18,
+        "total": 20
+      },
+      "compoundAgreement": {
+        "correct": 19,
+        "total": 20
+      },
+      "drivers": [
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 1.41,
+          "predictedPWin": 0.805,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 2,
+          "actualGrid": 3,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 1.54,
+          "predictedPWin": 0.68,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 3,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 3.205,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 4,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 1.66,
+          "predictedPWin": 0.715,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 5,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 5.11,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 6,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 3.225,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 7,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 10.315,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 8,
+          "actualGrid": 11,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 7,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 9,
+          "actualGrid": 14,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 11.765,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 10,
+          "actualGrid": 12,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 11.475,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 11,
+          "actualGrid": 13,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 11.935,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 12,
+          "actualGrid": 8,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 8.405,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 13,
+          "actualGrid": 9,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 7.77,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 14,
+          "actualGrid": 10,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 11.58,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 15,
+          "actualGrid": 16,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 14.09,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 16,
+          "actualGrid": 15,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 13.045,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 17,
+          "actualGrid": 19,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 20.25,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 18,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 15.145,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C2(M)→C1(H)→C2(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 19,
+          "actualGrid": 20,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 18.475,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C1(H)→C2(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 20,
+          "actualGrid": 17,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 11.695,
+          "predictedPWin": 0,
+          "actualStops": 6,
+          "actualPlan": "C2(M)→C1(H)→C3(S)→C3(S)→C3(S)→C3(S)→C2(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 21,
+          "actualGrid": 22,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 18.075,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C2(M)→C1(H)→C2(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 22,
+          "actualGrid": 18,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C2(M)→C1(H)",
+          "predictedPits": [
+            22
+          ],
+          "predictedExpFinish": 8.875,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(M)→C1(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "event": "Miami Grand Prix",
+      "date": "2026-05-03",
+      "totalLaps": 57,
+      "weather": "DRY",
+      "priorRounds": 3,
+      "compoundAllocation": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5",
+        "severity": 0.9
+      },
+      "stopCountAgreement": {
+        "correct": 13,
+        "total": 18
+      },
+      "compoundAgreement": {
+        "correct": 15,
+        "total": 18
+      },
+      "drivers": [
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 1.395,
+          "predictedPWin": 0.73,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 2,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 4.415,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 3,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 5.42,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 4,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 1.505,
+          "predictedPWin": 0.665,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 5,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 4.775,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 6,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 2.84,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 7,
+          "actualGrid": 8,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 12.05,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 8,
+          "actualGrid": 3,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 2.8,
+          "predictedPWin": 0.005,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 9,
+          "actualGrid": 13,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 14.255,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 10,
+          "actualGrid": 15,
+          "actualStatus": "Finished",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 14.145,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 11,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 10.71,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 12,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 10.715,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 13,
+          "actualGrid": 14,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 12.23,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 14,
+          "actualGrid": 16,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 12.215,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 15,
+          "actualGrid": 17,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 19.235,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 16,
+          "actualGrid": 20,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 19.99,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 17,
+          "actualGrid": 18,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 19.71,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 18,
+          "actualGrid": 19,
+          "actualStatus": "Lapped",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 19.85,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(M)→C5(S)→C4(M)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 19,
+          "actualGrid": 10,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 9.465,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 20,
+          "actualGrid": 11,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 11.28,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 21,
+          "actualGrid": 9,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            17,
+            37
+          ],
+          "predictedExpFinish": 9.14,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 22,
+          "actualGrid": 22,
+          "actualStatus": "Retired",
+          "predictedStops": 1,
+          "predictedPlan": "C4(M)→C3(H)",
+          "predictedPits": [
+            25
+          ],
+          "predictedExpFinish": 8.15,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "C3(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "event": "Canadian Grand Prix",
+      "date": "2026-05-24",
+      "totalLaps": 68,
+      "weather": "DRY",
+      "priorRounds": 4,
+      "compoundAllocation": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5",
+        "severity": 0.85
+      },
+      "stopCountAgreement": {
+        "correct": 5,
+        "total": 16
+      },
+      "compoundAgreement": {
+        "correct": 2,
+        "total": 16
+      },
+      "drivers": [
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 1.015,
+          "predictedPWin": 0.985,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 2,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 4.025,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 3,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 5.845,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 4,
+          "actualGrid": 8,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 3.56,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 5,
+          "actualGrid": 7,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 9.045,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C5(S)→C4(M)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 6,
+          "actualGrid": 10,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 11.24,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 7,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 12.215,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 8,
+          "actualGrid": 14,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            24,
+            44
+          ],
+          "predictedExpFinish": 10.56,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": true
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 9,
+          "actualGrid": 15,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 14.88,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "intermediate→C4(M)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 10,
+          "actualGrid": 16,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 6.345,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 11,
+          "actualGrid": 4,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 4.685,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "intermediate→C4(M)→C4(M)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 12,
+          "actualGrid": 11,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 14.145,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "intermediate→C5(S)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 13,
+          "actualGrid": 13,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 9.075,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "intermediate→C5(S)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 14,
+          "actualGrid": 17,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 12.33,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C5(S)→C4(M)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 15,
+          "actualGrid": 22,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 18.555,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C5(S)→C5(S)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 16,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 21.52,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "intermediate→C5(S)→C4(M)→C5(S)→C4(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 17,
+          "actualGrid": 20,
+          "actualStatus": "Retired",
+          "predictedStops": 3,
+          "predictedPlan": "C4(M)→C4(M)→C4(M)→C3(H)",
+          "predictedPits": [
+            16,
+            32,
+            48
+          ],
+          "predictedExpFinish": 20.595,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "intermediate→C5(S)→C4(M)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 18,
+          "actualGrid": 3,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 3.045,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "intermediate→C4(M)→C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 19,
+          "actualGrid": 1,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 2.75,
+          "predictedPWin": 0.01,
+          "actualStops": 0,
+          "actualPlan": "C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 20,
+          "actualGrid": 19,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 18.955,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C5(S)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 21,
+          "actualGrid": 18,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 12.36,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 22,
+          "actualGrid": 9,
+          "actualStatus": "Did not start",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            44
+          ],
+          "predictedExpFinish": 11.165,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "event": "Monaco Grand Prix",
+      "date": "2026-06-07",
+      "totalLaps": 78,
+      "weather": "DRY",
+      "priorRounds": 5,
+      "compoundAllocation": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5",
+        "severity": 0.75
+      },
+      "stopCountAgreement": {
+        "correct": 0,
+        "total": 15
+      },
+      "compoundAgreement": {
+        "correct": 0,
+        "total": 15
+      },
+      "drivers": [
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 1.035,
+          "predictedPWin": 0.965,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 2,
+          "actualGrid": 3,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            28,
+            50
+          ],
+          "predictedExpFinish": 4.11,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 3,
+          "actualGrid": 9,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 17.075,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C3(H)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 4,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 10.855,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C3(H)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 5,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            28,
+            50
+          ],
+          "predictedExpFinish": 3.95,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 6,
+          "actualGrid": 10,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 17.46,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 7,
+          "actualGrid": 15,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 12.23,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "C4(M)→C4(M)→C4(M)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 8,
+          "actualGrid": 11,
+          "actualStatus": "Finished",
+          "predictedStops": 3,
+          "predictedPlan": "C4(M)→C3(H)→C4(M)→C4(M)",
+          "predictedPits": [
+            18,
+            40,
+            59
+          ],
+          "predictedExpFinish": 8.575,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C5(S)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 9,
+          "actualGrid": 17,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 11.985,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C3(H)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 10,
+          "actualGrid": 21,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            28,
+            50
+          ],
+          "predictedExpFinish": 11.795,
+          "predictedPWin": 0,
+          "actualStops": 6,
+          "actualPlan": "C4(M)→C5(S)→C5(S)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 11,
+          "actualGrid": 16,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 5.62,
+          "predictedPWin": 0,
+          "actualStops": 7,
+          "actualPlan": "C5(S)→C3(H)→C4(M)→C4(M)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 12,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 3.78,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 13,
+          "actualGrid": 13,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 20.42,
+          "predictedPWin": 0,
+          "actualStops": 6,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C3(H)→C3(H)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 14,
+          "actualGrid": 14,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 14.6,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C3(H)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 15,
+          "actualGrid": 18,
+          "actualStatus": "Finished",
+          "predictedStops": 3,
+          "predictedPlan": "C4(M)→C4(M)→C4(M)→C3(H)",
+          "predictedPits": [
+            19,
+            38,
+            56
+          ],
+          "predictedExpFinish": 18.74,
+          "predictedPWin": 0,
+          "actualStops": 6,
+          "actualPlan": "C5(S)→C4(M)→C4(M)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 16,
+          "actualGrid": 12,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 15.44,
+          "predictedPWin": 0,
+          "actualStops": 5,
+          "actualPlan": "C4(M)→C5(S)→C5(S)→C5(S)→C5(S)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 17,
+          "actualGrid": 4,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 5.22,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 18,
+          "actualGrid": 22,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            28,
+            50
+          ],
+          "predictedExpFinish": 14.565,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 19,
+          "actualGrid": 8,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            22,
+            50
+          ],
+          "predictedExpFinish": 3.095,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 20,
+          "actualGrid": 19,
+          "actualStatus": "Retired",
+          "predictedStops": 4,
+          "predictedPlan": "C5(S)→C5(S)→C5(S)→C5(S)→C4(M)",
+          "predictedPits": [
+            15,
+            30,
+            45,
+            60
+          ],
+          "predictedExpFinish": 1.835,
+          "predictedPWin": 0.165,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 21,
+          "actualGrid": 20,
+          "actualStatus": "Retired",
+          "predictedStops": 4,
+          "predictedPlan": "C5(S)→C5(S)→C5(S)→C5(S)→C4(M)",
+          "predictedPits": [
+            15,
+            30,
+            45,
+            60
+          ],
+          "predictedExpFinish": 21.23,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 22,
+          "actualGrid": 2,
+          "actualStatus": "Retired",
+          "predictedStops": 3,
+          "predictedPlan": "C4(M)→C4(M)→C4(M)→C3(H)",
+          "predictedPits": [
+            18,
+            37,
+            56
+          ],
+          "predictedExpFinish": 8.78,
+          "predictedPWin": 0,
+          "actualStops": 0,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "event": "Barcelona Grand Prix",
+      "date": "2026-06-14",
+      "totalLaps": 66,
+      "weather": "DRY",
+      "priorRounds": 6,
+      "compoundAllocation": {
+        "hard": "C2",
+        "medium": "C3",
+        "soft": "C4",
+        "severity": 1.2
+      },
+      "stopCountAgreement": {
+        "correct": 7,
+        "total": 15
+      },
+      "compoundAgreement": {
+        "correct": 6,
+        "total": 15
+      },
+      "drivers": [
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 1,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 3.32,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(S)→C2(H)→C3(M)→C2(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 2,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            43
+          ],
+          "predictedExpFinish": 2.24,
+          "predictedPWin": 0.01,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 3,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 4.695,
+          "predictedPWin": 0.005,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 4,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C2(H)→C3(M)",
+          "predictedPits": [
+            23,
+            47
+          ],
+          "predictedExpFinish": 5.78,
+          "predictedPWin": 0.01,
+          "actualStops": 3,
+          "actualPlan": "C4(S)→C3(M)→C2(H)→C3(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 5,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 6.22,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 6,
+          "actualGrid": 6,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 7.515,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C3(M)→C2(H)→C2(H)→C4(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 7,
+          "actualGrid": 14,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C3(M)→C2(H)",
+          "predictedPits": [
+            24,
+            43
+          ],
+          "predictedExpFinish": 9.01,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 8,
+          "actualGrid": 8,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 11.275,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 9,
+          "actualGrid": 11,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 13.2,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 10,
+          "actualGrid": 13,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 12.35,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(S)→C2(H)→C2(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 11,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C2(H)→C3(M)",
+          "predictedPits": [
+            23,
+            47
+          ],
+          "predictedExpFinish": 12.935,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C3(M)→C2(H)→C2(H)→C4(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 12,
+          "actualGrid": 16,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 15.4,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(S)→C2(H)→C2(H)→C3(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 13,
+          "actualGrid": 17,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C3(M)→C2(H)",
+          "predictedPits": [
+            23,
+            42
+          ],
+          "predictedExpFinish": 15.605,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(S)→C2(H)→C3(M)→C4(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 14,
+          "actualGrid": 19,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C2(H)→C3(M)",
+          "predictedPits": [
+            23,
+            47
+          ],
+          "predictedExpFinish": 19.6,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(S)→C2(H)→C2(H)→C3(M)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 15,
+          "actualGrid": 10,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 3.45,
+          "predictedPWin": 0.105,
+          "actualStops": 3,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 16,
+          "actualGrid": 3,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C2(H)→C3(M)→C2(H)",
+          "predictedPits": [
+            23,
+            42
+          ],
+          "predictedExpFinish": 1.16,
+          "predictedPWin": 0.875,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 17,
+          "actualGrid": 15,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 10.425,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C3(M)→C2(H)→C4(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 18,
+          "actualGrid": 18,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 15.12,
+          "predictedPWin": 0,
+          "actualStops": 4,
+          "actualPlan": "C3(M)→C2(H)→C2(H)→C4(S)→C4(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 19,
+          "actualGrid": 22,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            43
+          ],
+          "predictedExpFinish": 19.86,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(H)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 20,
+          "actualGrid": 9,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 12.005,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(S)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 21,
+          "actualGrid": 20,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 21.68,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C3(M)→C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 22,
+          "actualGrid": 21,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C3(M)→C2(H)→C2(H)",
+          "predictedPits": [
+            19,
+            42
+          ],
+          "predictedExpFinish": 20.395,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C2(H)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "event": "Austrian Grand Prix",
+      "date": "2026-06-28",
+      "totalLaps": 71,
+      "weather": "DRY",
+      "priorRounds": 7,
+      "compoundAllocation": {
+        "hard": "C3",
+        "medium": "C4",
+        "soft": "C5",
+        "severity": 0.9
+      },
+      "stopCountAgreement": {
+        "correct": 15,
+        "total": 18
+      },
+      "compoundAgreement": {
+        "correct": 13,
+        "total": 18
+      },
+      "drivers": [
+        {
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "actualFinish": 1,
+          "actualGrid": 1,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 1.4,
+          "predictedPWin": 0.815,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull",
+          "actualFinish": 2,
+          "actualGrid": 5,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 3.995,
+          "predictedPWin": 0.07,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "actualFinish": 3,
+          "actualGrid": 4,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 1.655,
+          "predictedPWin": 0.585,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "actualFinish": 4,
+          "actualGrid": 7,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 5.48,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "actualFinish": 5,
+          "actualGrid": 3,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 2.72,
+          "predictedPWin": 0.23,
+          "actualStops": 3,
+          "actualPlan": "C4(M)→C3(H)→C5(S)→C3(H)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HAD",
+          "name": "Isack Hadjar",
+          "team": "Red Bull",
+          "actualFinish": 6,
+          "actualGrid": 8,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 6.32,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "actualFinish": 7,
+          "actualGrid": 6,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            25,
+            45
+          ],
+          "predictedExpFinish": 4.015,
+          "predictedPWin": 0.125,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "actualFinish": 8,
+          "actualGrid": 2,
+          "actualStatus": "Finished",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 1.86,
+          "predictedPWin": 0.38,
+          "actualStops": 3,
+          "actualPlan": "C4(M)→C3(H)→C3(H)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "actualFinish": 9,
+          "actualGrid": 9,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 9.665,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "actualFinish": 10,
+          "actualGrid": 10,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 11.365,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "actualFinish": 11,
+          "actualGrid": 12,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 11.55,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C5(S)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "HUL",
+          "name": "Nico Hulkenberg",
+          "team": "Audi",
+          "actualFinish": 12,
+          "actualGrid": 14,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 8.62,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "actualFinish": 13,
+          "actualGrid": 11,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            26,
+            46
+          ],
+          "predictedExpFinish": 8.45,
+          "predictedPWin": 0,
+          "actualStops": 3,
+          "actualPlan": "C4(M)→C3(H)→C4(M)→C5(S)",
+          "stopCountCorrect": false,
+          "compoundCorrect": false
+        },
+        {
+          "code": "BEA",
+          "name": "Oliver Bearman",
+          "team": "Haas",
+          "actualFinish": 14,
+          "actualGrid": 13,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C3(H)→C4(M)→C3(H)",
+          "predictedPits": [
+            26,
+            46
+          ],
+          "predictedExpFinish": 15.715,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "COL",
+          "name": "Franco Colapinto",
+          "team": "Alpine",
+          "actualFinish": 15,
+          "actualGrid": 16,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 10.155,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C3(H)→C4(M)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "OCO",
+          "name": "Esteban Ocon",
+          "team": "Haas",
+          "actualFinish": 16,
+          "actualGrid": 15,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 12.875,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "actualFinish": 17,
+          "actualGrid": 18,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 14.82,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C4(M)→C3(H)",
+          "stopCountCorrect": true,
+          "compoundCorrect": true
+        },
+        {
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "actualFinish": 18,
+          "actualGrid": 21,
+          "actualStatus": "Lapped",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 20.09,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C5(S)→C5(S)",
+          "stopCountCorrect": true,
+          "compoundCorrect": false
+        },
+        {
+          "code": "STR",
+          "name": "Lance Stroll",
+          "team": "Aston Martin",
+          "actualFinish": 19,
+          "actualGrid": 22,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 19.26,
+          "predictedPWin": 0,
+          "actualStops": 2,
+          "actualPlan": "C4(M)→C5(S)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "actualFinish": 20,
+          "actualGrid": 17,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 12.32,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C5(S)→C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "PER",
+          "name": "Sergio Perez",
+          "team": "Cadillac",
+          "actualFinish": 21,
+          "actualGrid": 19,
+          "actualStatus": "Retired",
+          "predictedStops": 2,
+          "predictedPlan": "C4(M)→C3(H)→C3(H)",
+          "predictedPits": [
+            20,
+            45
+          ],
+          "predictedExpFinish": 18.62,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        },
+        {
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "actualFinish": 22,
+          "actualGrid": 20,
+          "actualStatus": "Retired",
+          "predictedStops": 3,
+          "predictedPlan": "C3(H)→C4(M)→C4(M)→C3(H)",
+          "predictedPits": [
+            19,
+            35,
+            51
+          ],
+          "predictedExpFinish": 21,
+          "predictedPWin": 0,
+          "actualStops": 1,
+          "actualPlan": "C4(M)",
+          "stopCountCorrect": null,
+          "compoundCorrect": null
+        }
+      ]
+    }
+  ]
+}

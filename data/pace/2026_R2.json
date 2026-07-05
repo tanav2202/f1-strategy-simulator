@@ -1,0 +1,107 @@
+{
+  "year": 2026,
+  "round": 2,
+  "event": "Chinese Grand Prix",
+  "date": "2026-03-15",
+  "generated_utc": "2026-07-04T23:04:18.648702+00:00",
+  "notes": "pace_delta/corner_delta/straight_delta are seconds slower than the best car; corner/straight on fixed track zones, median of fastest clean laps; deg is within-stint fuel-corrected.",
+  "deg_per_lap_s": {
+    "hard": 0.0087,
+    "medium": 0.024,
+    "soft": 0.0023
+  },
+  "corner_speed_kmh": 200.0,
+  "corner_time_share": 0.322,
+  "drivers": {
+    "GAS": {
+      "pace_delta_s": 1.367,
+      "corner_delta_s": 5.915,
+      "straight_delta_s": 0.299
+    },
+    "PER": {
+      "pace_delta_s": 3.672,
+      "corner_delta_s": 7.314,
+      "straight_delta_s": 1.049
+    },
+    "ANT": {
+      "pace_delta_s": 0.0,
+      "corner_delta_s": 0.0,
+      "straight_delta_s": 3.827
+    },
+    "ALO": {
+      "pace_delta_s": 3.432,
+      "corner_delta_s": 6.316,
+      "straight_delta_s": 3.907
+    },
+    "LEC": {
+      "pace_delta_s": 0.857,
+      "corner_delta_s": 5.519,
+      "straight_delta_s": 0.165
+    },
+    "STR": {
+      "pace_delta_s": 3.409,
+      "corner_delta_s": 7.169,
+      "straight_delta_s": 3.436
+    },
+    "HUL": {
+      "pace_delta_s": 1.768,
+      "corner_delta_s": 5.681,
+      "straight_delta_s": 0.614
+    },
+    "VER": {
+      "pace_delta_s": 1.446,
+      "corner_delta_s": 6.239,
+      "straight_delta_s": 0.468
+    },
+    "LAW": {
+      "pace_delta_s": 1.982,
+      "corner_delta_s": 6.4,
+      "straight_delta_s": 0.472
+    },
+    "OCO": {
+      "pace_delta_s": 1.776,
+      "corner_delta_s": 5.042,
+      "straight_delta_s": 0.715
+    },
+    "LIN": {
+      "pace_delta_s": 2.181,
+      "corner_delta_s": 5.02,
+      "straight_delta_s": 0.347
+    },
+    "COL": {
+      "pace_delta_s": 1.777,
+      "corner_delta_s": 5.848,
+      "straight_delta_s": 0.617
+    },
+    "HAM": {
+      "pace_delta_s": 0.77,
+      "corner_delta_s": 5.353,
+      "straight_delta_s": 0.334
+    },
+    "SAI": {
+      "pace_delta_s": 2.595,
+      "corner_delta_s": 6.763,
+      "straight_delta_s": 0.752
+    },
+    "HAD": {
+      "pace_delta_s": 1.908,
+      "corner_delta_s": 6.419,
+      "straight_delta_s": 0.761
+    },
+    "RUS": {
+      "pace_delta_s": 0.079,
+      "corner_delta_s": 4.985,
+      "straight_delta_s": 0.0
+    },
+    "BOT": {
+      "pace_delta_s": 3.507,
+      "corner_delta_s": 7.373,
+      "straight_delta_s": 0.878
+    },
+    "BEA": {
+      "pace_delta_s": 1.516,
+      "corner_delta_s": 5.969,
+      "straight_delta_s": 0.467
+    }
+  }
+}

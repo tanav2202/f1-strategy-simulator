@@ -1,0 +1,122 @@
+{
+  "year": 2026,
+  "round": 6,
+  "event": "Monaco Grand Prix",
+  "date": "2026-06-07",
+  "generated_utc": "2026-07-04T23:04:24.031376+00:00",
+  "notes": "pace_delta/corner_delta/straight_delta are seconds slower than the best car; corner/straight on fixed track zones, median of fastest clean laps; deg is within-stint fuel-corrected.",
+  "deg_per_lap_s": {
+    "medium": 0.0511,
+    "soft": 0.0,
+    "hard": 0.0
+  },
+  "corner_speed_kmh": 200.0,
+  "corner_time_share": 0.55,
+  "drivers": {
+    "NOR": {
+      "pace_delta_s": 1.495,
+      "corner_delta_s": 3.103,
+      "straight_delta_s": 0.913
+    },
+    "GAS": {
+      "pace_delta_s": 1.802,
+      "corner_delta_s": 1.73,
+      "straight_delta_s": 0.273
+    },
+    "PER": {
+      "pace_delta_s": 3.094,
+      "corner_delta_s": 2.572,
+      "straight_delta_s": 0.557
+    },
+    "ANT": {
+      "pace_delta_s": 0.0,
+      "corner_delta_s": 0.0,
+      "straight_delta_s": 0.0
+    },
+    "ALO": {
+      "pace_delta_s": 2.778,
+      "corner_delta_s": 2.709,
+      "straight_delta_s": 0.571
+    },
+    "LEC": {
+      "pace_delta_s": 0.501,
+      "corner_delta_s": 1.323,
+      "straight_delta_s": 0.685
+    },
+    "STR": {
+      "pace_delta_s": 2.562,
+      "corner_delta_s": 4.224,
+      "straight_delta_s": 0.993
+    },
+    "ALB": {
+      "pace_delta_s": 2.42,
+      "corner_delta_s": 2.245,
+      "straight_delta_s": 0.479
+    },
+    "HUL": {
+      "pace_delta_s": 2.302,
+      "corner_delta_s": 1.882,
+      "straight_delta_s": 0.47
+    },
+    "LAW": {
+      "pace_delta_s": 2.028,
+      "corner_delta_s": 1.787,
+      "straight_delta_s": 0.211
+    },
+    "OCO": {
+      "pace_delta_s": 2.439,
+      "corner_delta_s": 2.577,
+      "straight_delta_s": 0.473
+    },
+    "LIN": {
+      "pace_delta_s": 2.078,
+      "corner_delta_s": 1.758,
+      "straight_delta_s": 0.286
+    },
+    "COL": {
+      "pace_delta_s": 2.288,
+      "corner_delta_s": 2.457,
+      "straight_delta_s": 0.293
+    },
+    "HAM": {
+      "pace_delta_s": 0.843,
+      "corner_delta_s": 0.714,
+      "straight_delta_s": 0.148
+    },
+    "BOR": {
+      "pace_delta_s": 2.819,
+      "corner_delta_s": 2.493,
+      "straight_delta_s": 0.504
+    },
+    "SAI": {
+      "pace_delta_s": 2.393,
+      "corner_delta_s": 3.607,
+      "straight_delta_s": 0.674
+    },
+    "HAD": {
+      "pace_delta_s": 1.95,
+      "corner_delta_s": 0.825,
+      "straight_delta_s": 0.927
+    },
+    "RUS": {
+      "pace_delta_s": 1.25,
+      "corner_delta_s": 1.839,
+      "straight_delta_s": 0.25
+    },
+    "BOT": {
+      "pace_delta_s": 3.566,
+      "corner_delta_s": 5.255,
+      "straight_delta_s": 1.732
+    },
+    "PIA": {
+      "pace_delta_s": 1.811,
+      "corner_delta_s": 1.936,
+      "straight_delta_s": 0.103
+    },
+    "BEA": {
+      "pace_delta_s": 2.194,
+      "corner_delta_s": 3.758,
+      "straight_delta_s": 0.905
+    }
+  }
+}

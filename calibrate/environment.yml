@@ -1,0 +1,27 @@
+# Conda environment for the F1 pace-calibration / backtest pipeline (spec section 3 + section 13).
+#
+# This is the OFFLINE Python side. It is completely separate from the browser app (which stays
+# zero-dependency). It fetches real F1 timing + telemetry via FastF1 and writes small JSON files
+# that the app reads. Nothing here runs in the browser.
+#
+# Create + activate:
+#   conda env create -f calibrate/environment.yml
+#   conda activate f1-calibrate
+#
+# Then, from the project root:
+#   python calibrate/check_data.py            # step 1: what 2026 data is available yet
+#   python calibrate/fetch_pace.py --last 3   # step 2: fetch the last N races into data/pace/
+#
+# Requires internet access (FastF1 pulls from the official F1 API / Jolpica-Ergast and caches it).
+name: f1-calibrate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pip:
+      - fastf1>=3.4.0

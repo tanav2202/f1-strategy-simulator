@@ -1,0 +1,135 @@
+{
+  "_comment": "Base pace ANCHORED to real 2026 Silverstone data (see _calibration below); tyre-deg and overtaking values remain hand-tuned placeholders pending FastF1 (via /calibrate/calibrate.py). v1 keeps pace FLATTENED: every car uses this single shared model (spec sections 1-2). Do not present the deg/overtaking numbers as measured F1 figures yet.",
+  "_calibrated": false,
+  "_calibration": {
+    "note": "Shared base lap calibrated from real data per spec section 4 'calibrate base only' decision. Per-car pace intentionally NOT modelled in v1 (flattened).",
+    "pole_2026_sprint_quali_s": 88.376,
+    "fastest_race_lap_2025_gp_s": 84.892,
+    "representative_midstint_offset_from_pole_s": 2.6,
+    "reasoning": "base_lap_seconds 91.0 = pole 88.376 + ~2.6s realistic race-fuel/management offset, and sits safely above the 84.892s low-fuel fastest-lap floor. pit_loss 20.5s matches Silverstone's ~20-21s pit time loss.",
+    "sources": [
+      "formula1.com 2026 British GP sprint qualifying",
+      "formula1.com 2025 British GP fastest laps"
+    ]
+  },
+  "total_laps": 52,
+  "track_km": 5.891,
+  "num_cars": 22,
+  "base_lap_seconds": 91.0,
+  "pit_loss_seconds": 20.5,
+  "pit_realism_seconds": 20,
+  "_pit_realism_note": "Extra cost per stop beyond the static pit-lane time-loss: cold-tyre out-lap (real F1 out-laps run measurably slower for 1-2 laps until temperature builds) plus rejoin/traffic risk. Without this, degradation time is convex in stint length, so an EXACT optimiser (src/dp.js) mathematically always prefers more/shorter stints even when real strategists don't, because the model had nothing else discouraging an extra stop. NOT a cited figure \u2014 calibrated by sweeping 0/8/12/18/20/24/30 against the R1-8 backtest and picking the value (20) that restores winner/podium accuracy to the pre-change baseline (57% winner, 1.6/3 podium) while most improving stop-count plausibility (R8 review: 5/22 -> 12/22 agreement). Residual gap vs the old hand-tuned GA's 17/22 is an honest open item \u2014 see progress.md.",
+  "fuel_coeff_seconds_per_lap": 0.055,
+  "lap_noise_sigma_seconds": 0.2,
+  "compounds": {
+    "soft": {
+      "pace_offset": -0.6,
+      "deg_per_lap": 0.11,
+      "max_stint_laps": 30,
+      "color": "#e10600"
+    },
+    "medium": {
+      "pace_offset": 0.0,
+      "deg_per_lap": 0.05,
+      "max_stint_laps": 38,
+      "color": "#f6d200"
+    },
+    "hard": {
+      "pace_offset": 0.5,
+      "deg_per_lap": 0.03,
+      "max_stint_laps": 48,
+      "color": "#f0f0f0"
+    },
+    "intermediate": {
+      "pace_offset": 0.0,
+      "deg_per_lap": 0.04,
+      "max_stint_laps": 999,
+      "color": "#43b02a"
+    },
+    "wet": {
+      "pace_offset": 0.0,
+      "deg_per_lap": 0.03,
+      "max_stint_laps": 999,
+      "color": "#0067ad"
+    }
+  },
+  "tyre_allocation": {
+    "_comment": "Standard 2026 dry-race slick allocation per driver per race weekend (practice+quali+race combined): 2 hard, 3 medium, 8 soft sets (13 total; sprint weekends get 12 with a different split \u2014 not modelled). We treat this as a race-strategy cap on how many DIFFERENT stints of a compound the race plan may use (each stint assumed to need one set; conservative since real teams can reuse a scrubbed set for a 2nd short stint, which we don't model). Intermediate/wet have a much larger wet-weather allocation, so no binding cap here.",
+    "_source": "Pirelli official 2026 nomination releases (press.pirelli.com), e.g. the Austrian GP release: 'two sets of the hard tyre, three sets of the medium tyre, and eight sets of the soft tyre'.",
+    "hard": 2,
+    "medium": 3,
+    "soft": 8
+  },
+  "compound_model": {
+    "_comment": "Absolute Pirelli slick compounds, C1 (hardest) through C5 (softest), 2026 range (no C6). pace_offset is seconds slower than the softest (C5) at reference fuel. deg_per_lap is per-lap time loss growth on a severity 1.0 track. Both are monotonic in hardness. Per race, data/races.json maps hard/medium/soft to a C-number, and strategy_lib re-centres pace on that track's medium and scales deg by tyre_severity, so a soft at Silverstone (C3) is correctly treated as a durable tyre and a soft at Austria (C5) as a fast-degrading one. This is what makes the compound recommendation, not just the stop count, track-accurate.",
+    "_source": "Pirelli C1-C5 characteristics, deg anchored to 2026 FastF1 race data and held monotonic (raw measured deg is too noisy to order compounds cleanly, see the strategy_lib note). pace_offset gaps were recalibrated after we noticed the model almost never recommended the hard compound (used in only 19% of predictions vs constantly in real races): the original uniform 0.45s step made a harder tyre's fixed pace penalty outweigh its lower deg almost everywhere, since breakeven only arrived past 30+ lap stints that our own cliff limits rarely allow. Halving the steps (uniform 0.225s now) fixed this: compound-choice agreement against real 2026 strategies went from 23/134 (17%) to 81/134 (60%), and stop-count agreement improved too (66/134 to 77/134), with no change to the separate real-strategy pace backtest (rho 0.62, unaffected since that replay doesn't touch this constant). Not independently re-sourced per compound step, just fixed against the data we have.",
+    "_max_stint_laps_caveat": "Honesty note: there is no official blanket FIA or Pirelli maximum laps per compound rule for standard races. The one real precedent, a mandatory 25 lap per set limit, was a track-specific emergency mandate for the abrasive Qatar surface in 2025, not a universal rule. These max_stint_laps figures are our sourced technical estimate of where a stint becomes unraceable (the cliff), anchored to Pirelli's own published characterisation: softest/red compounds show noticeable degradation within 6 to 8 laps and are rarely pushed much beyond that before falling off a cliff, while hardest/white compounds comfortably run 20 to 40+ laps. See redbull.com, 'Formula 1 tires: everything you need to know', and Pirelli's C1-C5 technical briefings. Treat as a credible modelling constraint, not a cited rule.",
+    "C1": {
+      "pace_offset": 0.9,
+      "deg_per_lap": 0.03,
+      "max_stint_laps": 48
+    },
+    "C2": {
+      "pace_offset": 0.675,
+      "deg_per_lap": 0.045,
+      "max_stint_laps": 40
+    },
+    "C3": {
+      "pace_offset": 0.45,
+      "deg_per_lap": 0.065,
+      "max_stint_laps": 32
+    },
+    "C4": {
+      "pace_offset": 0.225,
+      "deg_per_lap": 0.095,
+      "max_stint_laps": 25
+    },
+    "C5": {
+      "pace_offset": 0.0,
+      "deg_per_lap": 0.135,
+      "max_stint_laps": 18
+    }
+  },
+  "weather": {
+    "DRY": {
+      "offset_seconds": 0.0,
+      "allowed": [
+        "soft",
+        "medium",
+        "hard"
+      ]
+    },
+    "DAMP": {
+      "offset_seconds": 6.0,
+      "allowed": [
+        "intermediate"
+      ]
+    },
+    "WET": {
+      "offset_seconds": 12.0,
+      "allowed": [
+        "wet"
+      ]
+    }
+  },
+  "overtake": {
+    "_comment": "Overtaking model v2 (spec section 5), recalibrated for real per-car pace. Pass probability per lap = prob_cap * (1 - exp(-pass_k * (advantage - pace_gap_threshold))) where advantage = rolling-pace edge (s/lap) over the car directly ahead, attempted only within dirty_air_window seconds. Saturating: a few tenths stays stuck in dirty air, 1s+/lap passes within a lap or two, lapping-speed gaps are near-certain. dirty_air: seconds added when within the window and no pass this lap.",
+    "pace_gap_threshold": 0.1,
+    "pass_k": 1.4,
+    "prob_cap": 0.96,
+    "dirty_air_penalty": 0.3,
+    "dirty_air_window": 1.0
+  },
+  "safety_car": {
+    "_comment": "Safety-car model (spec section 5). Each green lap (until last_deploy_laps_left from the end, one deployment max) an SC deploys with prob_per_lap (~0.018 => ~60% of races see one, matching real SC/VSC frequency). Under SC: everyone laps at base*pace_multiplier (gaps freeze), no overtaking, tyres age at half rate, pit loss * pit_loss_multiplier (the cheap stop). Restart bunches the field to bunch_gap_s, order preserved. Rivals with stops in hand and tyre age >= rival_pit_min_age take the cheap stop; fixed plans shift their next stop onto the SC if due within fixed_shift_window laps.",
+    "prob_per_lap": 0.018,
+    "min_laps": 3,
+    "max_laps": 5,
+    "pace_multiplier": 1.4,
+    "pit_loss_multiplier": 0.5,
+    "bunch_gap_s": 0.5,
+    "last_deploy_laps_left": 8,
+    "rival_pit_min_age": 6,
+    "fixed_shift_window": 10
+  }
+}
