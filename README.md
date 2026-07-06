@@ -66,6 +66,7 @@ python calibrate/check_data.py                 # which 2026 sessions are availab
 python calibrate/fetch_pace.py --all           # per-car clean-air pace + corner/straight split, into data/pace/
 python calibrate/fetch_strategies.py --all     # each driver's real stints + pit laps, into data/strategies/
 python calibrate/extract_circuits.py --all     # track outlines + per-track constants, into data/tracks/ and data/races.json
+python calibrate/extract_race_notes.py         # honest per-race "where the model couldn't help" notes (safety cars, DNFs), into data/race_notes.json
 ```
 
 On a sprint weekend you can also fetch that weekend's Sprint pace (not a leak, it happens before the

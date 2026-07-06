@@ -1,0 +1,103 @@
+{
+  "notes": {
+    "1": {
+      "event": "Australian Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 0,
+      "virtual_safety_cars": 3,
+      "red_flags": 0,
+      "retirements": 3,
+      "did_not_start": 2,
+      "real_modal_stops": 1,
+      "note": "The race saw 3 virtual safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 3 cars retired and 2 did not start. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "2": {
+      "event": "Chinese Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 1,
+      "virtual_safety_cars": 0,
+      "red_flags": 0,
+      "retirements": 3,
+      "did_not_start": 4,
+      "real_modal_stops": 1,
+      "note": "The race saw 1 safety car, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 3 cars retired and 4 did not start. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "3": {
+      "event": "Japanese Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 1,
+      "virtual_safety_cars": 0,
+      "red_flags": 0,
+      "retirements": 2,
+      "did_not_start": 0,
+      "real_modal_stops": 1,
+      "note": "The race saw 1 safety car, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 2 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "4": {
+      "event": "Miami Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 1,
+      "virtual_safety_cars": 0,
+      "red_flags": 0,
+      "retirements": 4,
+      "did_not_start": 0,
+      "real_modal_stops": 1,
+      "note": "The race saw 1 safety car, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 4 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "5": {
+      "event": "Canadian Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 0,
+      "virtual_safety_cars": 3,
+      "red_flags": 0,
+      "retirements": 5,
+      "did_not_start": 1,
+      "real_modal_stops": 1,
+      "note": "The race saw 3 virtual safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 5 cars retired and 1 did not start. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "6": {
+      "event": "Monaco Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 3,
+      "virtual_safety_cars": 0,
+      "red_flags": 1,
+      "retirements": 7,
+      "did_not_start": 0,
+      "real_modal_stops": 5,
+      "note": "The race saw 1 red flag and 3 safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 7 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "7": {
+      "event": "Barcelona Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 0,
+      "virtual_safety_cars": 2,
+      "red_flags": 0,
+      "retirements": 7,
+      "did_not_start": 0,
+      "real_modal_stops": 3,
+      "note": "The race saw 2 virtual safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 7 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "8": {
+      "event": "Austrian Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 0,
+      "virtual_safety_cars": 2,
+      "red_flags": 0,
+      "retirements": 4,
+      "did_not_start": 0,
+      "real_modal_stops": 2,
+      "note": "The race saw 2 virtual safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 4 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    },
+    "9": {
+      "event": "British Grand Prix",
+      "weather": "DRY",
+      "safety_cars": 1,
+      "virtual_safety_cars": 2,
+      "red_flags": 0,
+      "retirements": 3,
+      "did_not_start": 0,
+      "real_modal_stops": 2,
+      "note": "The race saw 1 safety car and 2 virtual safety cars, which can hand the field cheap stops and reset the gaps. The model gives a safety car a random per-lap chance but cannot know this race's actual timing, so where a real caution forced an extra stop our call reads short. 3 cars retired. The model does not simulate mechanical failures or crashes, so those cars are predicted for a full race they never finished."
+    }
+  }
+}

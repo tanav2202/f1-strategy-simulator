@@ -30,13 +30,16 @@ function pitWindowText(p) {
 }
 
 async function boot() {
-  const [predictions, grid] = await Promise.all([
+  const [predictions, grid, notes] = await Promise.all([
     loadJSON('./data/predictions.json'),
     loadJSON('./data/grid.json'),
+    loadJSON('./data/race_notes.json').catch(() => ({ notes: {} })),
   ]);
   state.predictions = predictions;
   // Team colour per driver code, so each row in the strategy table carries team identity.
   state.colorByCode = Object.fromEntries(grid.drivers.map((d) => [d.code, d.color]));
+  // Per-race honest note on what the model couldn't capture (safety cars, DNFs, weather).
+  state.notesByRound = notes.notes || {};
 
   const sel = el('raceSelect');
   for (const r of predictions.rounds) {
@@ -104,6 +107,16 @@ async function renderTrackPreview(trackFile) {
 
 function renderDriverTable(r) {
   const completed = r.status === 'completed';
+  // Honest "where the model couldn't help" note for completed races (real safety cars, DNFs, weather
+  // the leakage-safe pace model doesn't simulate). Hidden for upcoming rounds.
+  const note = state.notesByRound[String(r.round)];
+  const noteEl = el('modelNote');
+  if (completed && note && note.note) {
+    noteEl.hidden = false;
+    noteEl.innerHTML = `<b>Where the model couldn't help here:</b> ${note.note}`;
+  } else {
+    noteEl.hidden = true;
+  }
   const stopAcc = r.stopCountAgreement;
   const compAcc = r.compoundAgreement;
   el('accuracyNote').textContent = completed
